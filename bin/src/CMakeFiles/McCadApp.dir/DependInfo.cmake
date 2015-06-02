@@ -1,0 +1,81 @@
+# The set of languages for which implicit dependencies are needed:
+SET(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/lu/mccad2/src/QMcCad/QMcCad_ActionFactory.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_ActionFactory.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/QMcCad_ActionMaster.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_ActionMaster.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/QMcCad_Application.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_Application.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/QMcCad_ClippingPlaneDialog.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_ClippingPlaneDialog.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/QMcCad_Editor.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_Editor.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/QMcCad_LogWindow.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_LogWindow.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/QMcCad_ReadListDialog.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_ReadListDialog.cxx.o"
+  "/home/lu/mccad2/src/QMcCad/QMcCad_TransparencyDialog.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_TransparencyDialog.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/QMcCad_VGParamDialog.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_VGParamDialog.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/QMcCad_View.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_View.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/QMcCad_Viewer.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_Viewer.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/main.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/main.cpp.o"
+  "/home/lu/mccad2/src/QMcCad/qrc_qmccad.cpp" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCad/qrc_qmccad.cpp.o"
+  "/home/lu/mccad2/src/QMcCadGeomeTree/QMcCadGeomeTree_AddToMGDialog.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCadGeomeTree/QMcCadGeomeTree_AddToMGDialog.cxx.o"
+  "/home/lu/mccad2/src/QMcCadGeomeTree/QMcCadGeomeTree_TreeWidget.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/QMcCadGeomeTree/QMcCadGeomeTree_TreeWidget.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_CopyTo.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_CopyTo.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeBox.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_MakeBox.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeCone.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_MakeCone.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeCylinder.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_MakeCylinder.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeSphere.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_MakeSphere.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MoveTo.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_MoveTo.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_Rotate.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_Rotate.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_Scale.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_Scale.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCadGeomeTree_AddToMGDialog.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCadGeomeTree_AddToMGDialog.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCadGeomeTree_TreeWidget.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCadGeomeTree_TreeWidget.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ActionFactory.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_ActionFactory.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ActionMaster.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_ActionMaster.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_Application.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_Application.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ClippingPlaneDialog.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_ClippingPlaneDialog.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_Editor.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_Editor.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_LogWindow.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_LogWindow.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ReadListDialog.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_ReadListDialog.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_TransparencyDialog.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_TransparencyDialog.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_VGParamDialog.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_VGParamDialog.cxx.o"
+  "/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_View.cxx" "/home/lu/mccad2/bin/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_View.cxx.o"
+  )
+SET(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+SET(CMAKE_TARGET_DEFINITIONS
+  "QT_OPENGL_LIB"
+  "QT_GUI_LIB"
+  "QT_NETWORK_LIB"
+  "QT_CORE_LIB"
+  )
+
+# Targets to which this target links.
+SET(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadAEV.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadBoolExp.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadCom.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadConvertTools.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadCSG.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadCSGBuild.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadCSGGeom.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadCSGUtil.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadDiscDs.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadDiscretization.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadEXPlug.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadGTOOL.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadGUI.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadIOHelper.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadIOTools.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadMcRead.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadMcVoid.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadMcWrite.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadMDReader.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadMessenger.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadTDS.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadTool.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadXCAF.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKMcCadViewTool.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKQMcCadMessenger.dir/DependInfo.cmake"
+  "/home/lu/mccad2/bin/src/CMakeFiles/TKQMcCadTools.dir/DependInfo.cmake"
+  )

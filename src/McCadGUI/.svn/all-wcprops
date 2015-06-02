@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/mccad/!svn/ver/375/trunk/src/McCadGUI
+END
+McCadGUI_ProgressDialog.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mccad/!svn/ver/159/trunk/src/McCadGUI/McCadGUI_ProgressDialog.cxx
+END
+McCadGUI_Messenger.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mccad/!svn/ver/271/trunk/src/McCadGUI/McCadGUI_Messenger.cxx
+END
+McCadGUI_BaseDialog.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mccad/!svn/ver/375/trunk/src/McCadGUI/McCadGUI_BaseDialog.cxx
+END
+McCadGUI_GuiFactory.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mccad/!svn/ver/375/trunk/src/McCadGUI/McCadGUI_GuiFactory.cxx
+END
+McCadGUI_ColorDialog.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mccad/!svn/ver/375/trunk/src/McCadGUI/McCadGUI_ColorDialog.cxx
+END
+McCadGUI_FileDialog.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mccad/!svn/ver/375/trunk/src/McCadGUI/McCadGUI_FileDialog.cxx
+END
+McCadGUI_InputDialog.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mccad/!svn/ver/375/trunk/src/McCadGUI/McCadGUI_InputDialog.cxx
+END

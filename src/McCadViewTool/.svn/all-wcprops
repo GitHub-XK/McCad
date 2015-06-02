@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/mccad/!svn/ver/159/trunk/src/McCadViewTool
+END
+McCadViewTool_Delete.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mccad/!svn/ver/159/trunk/src/McCadViewTool/McCadViewTool_Delete.cxx
+END
+McCadViewTool_RightProject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_RightProject.cxx
+END
+McCadViewTool_Axis.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_Axis.cxx
+END
+McCadViewTool_ReadValueList.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mccad/!svn/ver/158/trunk/src/McCadViewTool/McCadViewTool_ReadValueList.cxx
+END
+McCadViewTool_RedisplaySelected.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_RedisplaySelected.cxx
+END
+McCadViewTool_Transparency.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_Transparency.cxx
+END
+McCadViewTool_ShowAll.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_ShowAll.cxx
+END
+McCadViewTool_SetShapeColor.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_SetShapeColor.cxx
+END
+McCadViewTool_ZoomIn.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_ZoomIn.cxx
+END
+McCadViewTool_SetVisualization.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_SetVisualization.cxx
+END
+McCadViewTool_SetAntialiasing.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_SetAntialiasing.cxx
+END
+McCadViewTool_FrontProject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_FrontProject.cxx
+END
+McCadViewTool_DisplaySelectedOnly.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_DisplaySelectedOnly.cxx
+END
+McCadViewTool_WireFrame.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_WireFrame.cxx
+END
+McCadViewTool_LeftProject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_LeftProject.cxx
+END
+McCadViewTool_Axo.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_Axo.cxx
+END
+McCadViewTool_BackProject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_BackProject.cxx
+END
+McCadViewTool_TopProject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_TopProject.cxx
+END
+McCadViewTool_SetBackgroundColor.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_SetBackgroundColor.cxx
+END
+McCadViewTool_BottomProject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_BottomProject.cxx
+END
+McCadViewTool_SetShadingMode.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_SetShadingMode.cxx
+END
+McCadViewTool_Rotate.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mccad/!svn/ver/159/trunk/src/McCadViewTool/McCadViewTool_Rotate.cxx
+END
+McCadViewTool_Dump.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_Dump.cxx
+END
+McCadViewTool_Size.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_Size.cxx
+END
+McCadViewTool_FitAll.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_FitAll.cxx
+END
+McCadViewTool_ZoomOut.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_ZoomOut.cxx
+END
+McCadViewTool_Pan.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_Pan.cxx
+END
+McCadViewTool_SetHiddenLine.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_SetHiddenLine.cxx
+END
+McCadViewTool_SetVisuMaterial.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_SetVisuMaterial.cxx
+END
+McCadViewTool_Reset.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_Reset.cxx
+END
+McCadViewTool_HideSelected.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_HideSelected.cxx
+END
+McCadViewTool_Zoom.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_Zoom.cxx
+END
+McCadViewTool_Redraw.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_Redraw.cxx
+END
+McCadViewTool_Grid.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/8/trunk/src/McCadViewTool/McCadViewTool_Grid.cxx
+END

@@ -1,0 +1,17 @@
+#
+#      McCadInputFile 
+# ------------------------------
+
+# parameter settings ...
+#
+# 
+# WriteCollisionFile  0
+# WriteDiscreteModel  0
+#
+# for material information uncomment next line
+# MDFile  ../data/MaterialList.txt
+
+# directories that contain the converted*.stp files
+#
+.
+

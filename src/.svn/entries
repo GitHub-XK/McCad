@@ -1,0 +1,255 @@
+10
+
+dir
+533
+https://inrserv09.irs.fzk.de/svn/mccad/trunk/src
+https://inrserv09.irs.fzk.de/svn/mccad
+
+
+
+2012-07-09T21:50:28.089397Z
+533
+grosse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2fd131eb-151f-42d6-8240-0c16247a2fb0
+
+McCadMessenger
+dir
+
+McCadDiscretization
+dir
+
+McCadMcnpWriter.cxx
+file
+0
+
+
+add
+
+McCadWin
+dir
+
+McCadMcnpWriter.hxx
+file
+0
+
+
+add
+
+McCadConvertTools
+dir
+
+McCadBoolExp
+dir
+
+McCadDesign
+dir
+
+McCadDiscDs
+dir
+
+QMcCadMessenger
+dir
+
+McCadMcWrite
+dir
+
+McCadCSGUtil
+dir
+
+McCadExDllTripoli
+dir
+
+McCadExDllIges
+dir
+
+icon.png
+file
+
+
+
+
+2012-06-28T16:00:49.000000Z
+f8704dae933daf55a8372d64fdc5150d
+2010-04-15T14:47:55.108170Z
+1
+grosse
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6265
+
+McCadGTOOL
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2012-06-28T16:00:49.000000Z
+3d908eee6417460db96fb78f64c221b6
+2012-06-24T11:50:54.082750Z
+504
+grosse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+45138
+
+McCadIOTools
+dir
+
+McCad.template
+file
+
+
+
+
+2012-06-28T16:00:49.000000Z
+a91e642d9852bb90ee4163202611892a
+2012-02-26T11:58:32.182418Z
+201
+grosse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+131
+
+McCadTDS
+dir
+
+McCadExDllStl
+dir
+
+McCadMcRead
+dir
+
+McCadCSGBuild
+dir
+
+QMcCadGeomeTree
+dir
+
+QMcCad
+dir
+
+McCadEXPlug
+dir
+
+McCadExDllStep
+dir
+
+McCadIOHelper
+dir
+
+McCadViewTool
+dir
+
+McCadCSGTool
+dir
+
+McCadAEV
+dir
+
+McCadTool
+dir
+
+McCadCom
+dir
+
+McCadXCAF
+dir
+
+McCadExDllBrep
+dir
+
+McCadMcVoid
+dir
+
+McCadMDReader
+dir
+
+McCadEditTool
+dir
+
+McCadGUI
+dir
+
+McCadCSGGeom
+dir
+
+McCadExDllMcnp
+dir
+
+McCadCSGAdapt
+dir
+

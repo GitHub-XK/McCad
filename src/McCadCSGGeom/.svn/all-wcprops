@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/mccad/!svn/ver/533/trunk/src/McCadCSGGeom
+END
+McCadCSGGeom_Cone.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/528/trunk/src/McCadCSGGeom/McCadCSGGeom_Cone.cxx
+END
+McCadCSGGeom_HSequenceOfCell_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_HSequenceOfCell_0.cxx
+END
+McCadCSGGeom_SequenceOfSurface_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_SequenceOfSurface_0.cxx
+END
+McCadCSGGeom_DataMapNodeOfDataMapOfIntegerSurface_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_DataMapNodeOfDataMapOfIntegerSurface_0.cxx
+END
+McCadCSGGeom_Sphere.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/mccad/!svn/ver/159/trunk/src/McCadCSGGeom/McCadCSGGeom_Sphere.cxx
+END
+McCadCSGGeom_SequenceNodeOfSequenceOfTransformation_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_SequenceNodeOfSequenceOfTransformation_0.cxx
+END
+McCadCSGGeom_Surface.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mccad/!svn/ver/159/trunk/src/McCadCSGGeom/McCadCSGGeom_Surface.cxx
+END
+McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerSurface_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerSurface_0.cxx
+END
+McCadCSGGeom_DataMapOfIntegerCell_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_DataMapOfIntegerCell_0.cxx
+END
+McCadCSGGeom_HSequenceOfSurface_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_HSequenceOfSurface_0.cxx
+END
+McCadCSGGeom_Plane.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mccad/!svn/ver/227/trunk/src/McCadCSGGeom/McCadCSGGeom_Plane.cxx
+END
+McCadCSGGeom_SequenceNodeOfSequenceOfCell_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_SequenceNodeOfSequenceOfCell_0.cxx
+END
+McCadCSGGeom_DataMapOfIntegerSurface_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_DataMapOfIntegerSurface_0.cxx
+END
+McCadCSGGeom_SequenceOfTransformation_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_SequenceOfTransformation_0.cxx
+END
+McCadCSGGeom_DataMapNodeOfDataMapOfIntegerTransformation_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_DataMapNodeOfDataMapOfIntegerTransformation_0.cxx
+END
+McCadCSGGeom_SurfaceOfRevolution.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mccad/!svn/ver/187/trunk/src/McCadCSGGeom/McCadCSGGeom_SurfaceOfRevolution.cxx
+END
+McCadCSGGeom_Transformation.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_Transformation.cxx
+END
+McCadCSGGeom_GQ.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mccad/!svn/ver/81/trunk/src/McCadCSGGeom/McCadCSGGeom_GQ.cxx
+END
+McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerTransformation_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerTransformation_0.cxx
+END
+McCadCSGGeom_Cylinder.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mccad/!svn/ver/159/trunk/src/McCadCSGGeom/McCadCSGGeom_Cylinder.cxx
+END
+McCadCSGGeom_SequenceNodeOfSequenceOfSurface_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_SequenceNodeOfSequenceOfSurface_0.cxx
+END
+McCadCSGGeom_HSequenceOfTransformation_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_HSequenceOfTransformation_0.cxx
+END
+McCadCSGGeom_DataMapNodeOfDataMapOfIntegerCell_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_DataMapNodeOfDataMapOfIntegerCell_0.cxx
+END
+McCadCSGGeom_SequenceOfCell_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_SequenceOfCell_0.cxx
+END
+McCadCSGGeom_Torus.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/mccad/!svn/ver/159/trunk/src/McCadCSGGeom/McCadCSGGeom_Torus.cxx
+END
+McCadCSGGeom_Cell.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/533/trunk/src/McCadCSGGeom/McCadCSGGeom_Cell.cxx
+END
+McCadCSGGeom_DataMapOfIntegerTransformation_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_DataMapOfIntegerTransformation_0.cxx
+END
+McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerCell_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGGeom/McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerCell_0.cxx
+END

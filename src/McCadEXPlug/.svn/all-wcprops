@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/mccad/!svn/ver/453/trunk/src/McCadEXPlug
+END
+McCadEXPlug_SequenceOfSharedLibrary_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mccad/!svn/ver/8/trunk/src/McCadEXPlug/McCadEXPlug_SequenceOfSharedLibrary_0.cxx
+END
+McCadEXPlug_PluginManager.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mccad/!svn/ver/406/trunk/src/McCadEXPlug/McCadEXPlug_PluginManager.cxx
+END
+McCadEXPlug_MCBase.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/453/trunk/src/McCadEXPlug/McCadEXPlug_MCBase.cxx
+END
+McCadEXPlug_SequenceNodeOfSequenceOfSharedLibrary_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mccad/!svn/ver/8/trunk/src/McCadEXPlug/McCadEXPlug_SequenceNodeOfSequenceOfSharedLibrary_0.cxx
+END
+McCadEXPlug_MapStringHasher.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mccad/!svn/ver/8/trunk/src/McCadEXPlug/McCadEXPlug_MapStringHasher.cxx
+END
+McCadEXPlug.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/mccad/!svn/ver/8/trunk/src/McCadEXPlug/McCadEXPlug.cxx
+END
+McCadEXPlug_ExchangePlugin.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mccad/!svn/ver/159/trunk/src/McCadEXPlug/McCadEXPlug_ExchangePlugin.cxx
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS
+END
+McCadTDS_SequenceOfExtFace_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_SequenceOfExtFace_0.cxx
+END
+McCadTDS_SequenceNodeOfSequenceOfExtSolid_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_SequenceNodeOfSequenceOfExtSolid_0.cxx
+END
+McCadTDS_DataMapNodeOfDataMapOfIntegerExtFace_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_DataMapNodeOfDataMapOfIntegerExtFace_0.cxx
+END
+McCadTDS_ExtFace.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_ExtFace.cxx
+END
+McCadTDS_DataMapIteratorOfDataMapOfIntegerExtFace_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_DataMapIteratorOfDataMapOfIntegerExtFace_0.cxx
+END
+McCadTDS_HSequenceOfExtFace_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_HSequenceOfExtFace_0.cxx
+END
+McCadTDS_DataMapOfIntegerSolid_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_DataMapOfIntegerSolid_0.cxx
+END
+McCadTDS_SequenceOfExtSolid_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_SequenceOfExtSolid_0.cxx
+END
+McCadTDS_DataMapOfIntegerExtFace_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_DataMapOfIntegerExtFace_0.cxx
+END
+McCadTDS_NormFace.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_NormFace.cxx
+END
+McCadTDS_ExtSolid.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_ExtSolid.cxx
+END
+McCadTDS_SequenceNodeOfSequenceOfExtFace_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_SequenceNodeOfSequenceOfExtFace_0.cxx
+END
+McCadTDS_HSequenceOfExtSolid_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_HSequenceOfExtSolid_0.cxx
+END
+McCadTDS_DataMapNodeOfDataMapOfIntegerSolid_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_DataMapNodeOfDataMapOfIntegerSolid_0.cxx
+END
+McCadTDS_DataMapIteratorOfDataMapOfIntegerSolid_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mccad/!svn/ver/8/trunk/src/McCadTDS/McCadTDS_DataMapIteratorOfDataMapOfIntegerSolid_0.cxx
+END

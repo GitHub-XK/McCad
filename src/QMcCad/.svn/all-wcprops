@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/mccad/!svn/ver/519/trunk/src/QMcCad
+END
+QMcCad_Editor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/mccad/!svn/ver/382/trunk/src/QMcCad/QMcCad_Editor.cpp
+END
+moc_QMcCad_LogWindow.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_LogWindow.cxx
+END
+moc_QMcCad_View.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_View.cxx
+END
+QMcCad_TransparencyDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/QMcCad_TransparencyDialog.cpp
+END
+QMcCad_ActionMaster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/mccad/!svn/ver/277/trunk/src/QMcCad/QMcCad_ActionMaster.cpp
+END
+moc_QMcCad_VGParamDialog.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_VGParamDialog.cxx
+END
+CADProperties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/CADProperties.cpp
+END
+moc_QMcCad_PDialog.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_PDialog.cxx
+END
+moc_McCadExDllMcnp_Mcnp.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_McCadExDllMcnp_Mcnp.cxx
+END
+QMcCad_Viewer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/mccad/!svn/ver/146/trunk/src/QMcCad/QMcCad_Viewer.cpp
+END
+moc_QMcCad_Application.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_Application.cpp
+END
+QMcCad_Application.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mccad/!svn/ver/277/trunk/src/QMcCad/QMcCad_Application.cpp
+END
+moc_QMcCad_Editor.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_Editor.cxx
+END
+QMcCad_ClippingPlaneDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mccad/!svn/ver/233/trunk/src/QMcCad/QMcCad_ClippingPlaneDialog.cpp
+END
+QMcCad_ActionFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mccad/!svn/ver/159/trunk/src/QMcCad/QMcCad_ActionFactory.cpp
+END
+QMcCad_ReadListDialog.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mccad/!svn/ver/277/trunk/src/QMcCad/QMcCad_ReadListDialog.cxx
+END
+moc_QMcCad_ActionMaster.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_ActionMaster.cxx
+END
+moc_QMcCad_LogWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_LogWindow.cpp
+END
+moc_QMcCad_View.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_View.cpp
+END
+QMcCad_LogWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/QMcCad_LogWindow.cpp
+END
+moc_CADProperties.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_CADProperties.cxx
+END
+QMcCad_View.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/mccad/!svn/ver/159/trunk/src/QMcCad/QMcCad_View.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/mccad/!svn/ver/519/trunk/src/QMcCad/main.cpp
+END
+QMcCad_VGParamDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/QMcCad_VGParamDialog.cpp
+END
+moc_QMcCad_VGParameters.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_VGParameters.cxx
+END
+moc_QMcCad_Application.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_Application.cxx
+END
+_qrc_qmccad.cpp_
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/_qrc_qmccad.cpp_
+END
+moc_QMcCad_ActionFactory.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_ActionFactory.cxx
+END
+moc_QMcCad_Editor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/mccad/!svn/ver/8/trunk/src/QMcCad/moc_QMcCad_Editor.cpp
+END
+qrc_qmccad.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mccad/!svn/ver/186/trunk/src/QMcCad/qrc_qmccad.cpp
+END

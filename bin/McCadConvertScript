@@ -1,0 +1,51 @@
+#!/bin/bash
+
+#
+# This script calls for every STEP file in the current directory which name does not begin
+# with 'converted' McCad and performs the sign constant decompostition by calling McCad -d ...
+# If a solid fails to decompose completely the script will print the file names of the failed
+# STEP files in the end.
+#
+
+
+# Decompose every step file in current directory 
+for i in $(ls *.stp); 
+do
+	# skip converted* files
+	echo $i | grep -H "converted*" > /dev/null
+	if [ $? -eq 0 ] ; then
+		echo "skipping $i"
+		continue
+	fi
+
+	McCad -d $i
+done
+
+
+# Test if all converted*.stp files have been generated
+PRINTCHECK=1
+for i in `ls *.stp`
+do  	
+	echo $i | grep -H "converted*" > /dev/null
+	if [ $? -eq 0 ] ; then
+		continue	
+	fi
+
+	# failed conversion!!!
+	if [ $PRINTCHECK -eq 1 ] ; 
+        then
+		PRINTCHECK=0
+		echo " "
+		echo "Decomposition failed for :"
+             	echo "=========================="
+                echo " "
+	fi
+
+	CONVERTEDNAME=converted$i
+	
+	if [ ! -f $CONVERTEDNAME ]
+	then
+		echo "$i"
+	fi
+done
+echo " "

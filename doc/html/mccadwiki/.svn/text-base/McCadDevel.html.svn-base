@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>
+      McCadDevel –
+      McCad
+    </title>
+        <link rel="search" href="https://inrserv09.irs.fzk.de/trac/mccad/search">
+        <link rel="help" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TracGuide">
+        <link rel="alternate" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/McCadDevel?format=txt" type="text/x-trac-wiki" title="Plain Text">
+        <link rel="up" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/McCadDevel" title="View Latest Version">
+        <link rel="start" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki">
+        <link rel="stylesheet" href="McCadDevel_files/trac.css" type="text/css"><link rel="stylesheet" href="McCadDevel_files/wiki.css" type="text/css">
+        <link rel="shortcut icon" href="https://inrserv09.irs.fzk.de/trac/mccad/chrome/common/trac.ico" type="image/x-icon">
+        <link rel="icon" href="https://inrserv09.irs.fzk.de/trac/mccad/chrome/common/trac.ico" type="image/x-icon">
+      <link type="application/opensearchdescription+xml" rel="search" href="https://inrserv09.irs.fzk.de/trac/mccad/search/opensearch" title="Search McCad">
+    <script type="text/javascript" src="McCadDevel_files/jquery.js"></script><script type="text/javascript" src="McCadDevel_files/trac.js"></script><script type="text/javascript" src="McCadDevel_files/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/trac/mccad/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TracIni#header_logo-section"><img src="McCadDevel_files/your_project_logo.html" alt="(please configure the [header_logo] section in trac.ini)"></a>
+      </div>
+      <form id="search" action="/trac/mccad/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input id="proj-search" name="q" size="18" type="text">
+          <input value="Search" type="submit">
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first">logged in as grosse</li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/logout">Logout</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/prefs">Preferences</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="https://inrserv09.irs.fzk.de/trac/mccad/about">About Trac</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki">Wiki</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/timeline">Timeline</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/roadmap">Roadmap</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/browser">Browse Source</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/report">View Tickets</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/newticket">New Ticket</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/search">Search</a></li><li class="last"><a href="https://inrserv09.irs.fzk.de/trac/mccad/admin" title="Administration">Admin</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+            <li class="first "><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/WikiStart">Start Page</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TitleIndex">Index</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/McCadDevel?action=history">History</a></li><li class="last"><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/McCadDevel?action=diff&amp;version=12">Last Change</a></li>
+          </ul>
+        <hr>
+      </div>
+    <div id="content" class="wiki">
+      <div class="wikipage searchable">
+        
+          <h1 id="DevelopersGuide">Developer's Guide<a title="Link to this section" href="#DevelopersGuide" class="anchor"> ¶</a></h1>
+<h2 id="ReferenceDocumentation">Reference Documentation<a title="Link to this section" href="#ReferenceDocumentation" class="anchor"> ¶</a></h2>
+<p>
+McCad provides a <a class="ext-link" href="http://www.stack.nl/%7Edimitri/doxygen/"><span class="icon">Doxygen</span></a> makefile named Doxyfile in the directory .../McCad/doc/.<br>
+To generate a html documentation of the McCad packaged you need to install Doxygen from the link above.
+</p>
+<pre class="wiki">   &gt; cd .../McCad/doc
+   &gt; doxygen Doxyfile
+</pre><p>
+After the generation is done you can browse the code in your favorite web browser from the index page .../html/index.html.
+</p>
+<hr>
+<h2 id="HowtofindyourwayintotheMcCadcode">How to find your way into the McCad code<a title="Link to this section" href="#HowtofindyourwayintotheMcCadcode" class="anchor"> ¶</a></h2>
+<h3 id="CADtoMCconversion">CAD to MC conversion<a title="Link to this section" href="#CADtoMCconversion" class="anchor"> ¶</a></h3>
+<p>
+The McCad conversion from CAD to Monte Carlo geometry consists mainly of
+ three steps. The first step is an implementation of the sign-constant 
+decomposition algorithm. The class
+</p>
+<pre class="wiki">   McCadConvertTools_Convertor
+</pre><p>
+checks all input solids for topological and geometrical errors, and performs a <a href="MC09Paper.pdf">sign-constant decomposition</a>.<br>
+The second step is the generation of void space. In MCNP the whole 
+universe has to be described. Either as solid part of the geometry or as
+ void space.<br>
+The conversion itself consists mainly of these classes
+</p>
+<pre class="wiki"> - McCadCSGAdapt_SolidAnalyser    // perform validity tests
+ - McCadCSGTool_Decomposer        // perform sign constant decomposition on one solid
+   - McCadCSGTool_TrivialCheck    // test if input solid is a trivial (i.e. box, sphere,...)
+   - McCadCSGTool_SignCheck       // test if solid is sign-constant
+   - McCadCSGTool_FaceFuser       // fuse lateral faces
+   - McCadCSGGeom_Surface         // surface description for McCad
+   - McCadTDS_ExtFace             // solid with sample points on all edges -&gt; indicates if a solid is sign-changing
+   - McCadGTOOL                   // Toolbox for the evaluation of surface equations for defined points
+   - McCadCSGTool                 // Toolbox for CSG (Constructive Solid Geometry) related computations
+   - McCadCSGTool_Cutter          // perform the actual cutting
+</pre><p>
+The class
+</p>
+<pre class="wiki">   McCadConvertTools_VoidGenerator
+</pre><p>
+coordinates the generation of void space.
+</p>
+<p>
+Finally the geometry and calculated void space have to be written into a file. This is handled by a class 
+</p>
+<pre class="wiki">   McCadMcWrite_${MC_CODE}Generator
+</pre><p>
+Where <i>${MC_CODE}</i> is either <i>Mcnp</i> or <i>Tripoli</i> depending on the Monte Carlo code the geometry is converted for.
+</p>
+<h3 id="MCNPtoCADconversion">MCNP to CAD conversion<a title="Link to this section" href="#MCNPtoCADconversion" class="anchor"> ¶</a></h3>
+<pre class="wiki">   McCadExDllMcnp_Mcnp::Import()
+</pre><hr>
+<h2 id="GuidelinetointegrateMcCadintoaliencode">Guideline to integrate McCad into alien code<a title="Link to this section" href="#GuidelinetointegrateMcCadintoaliencode" class="anchor"> ¶</a></h2>
+<p>
+Begin with the McCadEXPlug_MCBase.cxx which is the base class for all 
+'export to MC geometry' classes . It is inherited by McCadExDllMcnp_Mcnp
+ and McCadExDllTripoli_Tripoli. All actions performed by the base class 
+are agnostic to the used MC code. The sign constant decomposition as 
+well as the finalization of the model by void space are performed here. 
+</p>
+
+        
+        
+      </div>
+          <div class="buttons">
+              <form method="get" action="/trac/mccad/wiki/McCadDevel" id="modifypage">
+                <div>
+                  <input name="action" value="edit" type="hidden">
+                      <input value="Edit this page" type="submit">
+                </div>
+              </form>
+    <form method="get" action="/trac/mccad/attachment/wiki/McCadDevel/" id="attachfile">
+      <div>
+        <input name="action" value="new" type="hidden">
+        <input name="attachfilebutton" value="Attach file" type="submit">
+      </div>
+    </form>
+              <form method="get" action="/trac/mccad/wiki/McCadDevel">
+                <div id="delete">
+                  <input name="action" value="delete" type="hidden">
+                  <input name="version" value="12" type="hidden">
+                    <input name="delete_version" value="Delete this version" type="submit">
+                  <input value="Delete page" type="submit">
+                </div>
+              </form>
+          </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/McCadDevel?format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" xml:lang="en" lang="en"><hr>
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="McCadDevel_files/trac_logo_mini.png" alt="Trac Powered" width="107" height="30"></a>
+      <p class="left">
+        Powered by <a href="https://inrserv09.irs.fzk.de/trac/mccad/about"><strong>Trac 0.11.1</strong></a><br>
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  
+</body></html>

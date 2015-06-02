@@ -1,0 +1,832 @@
+#####################################################################
+#								    #
+#			 Build McCad libraries			    #
+#								    #
+#####################################################################
+
+############################################################################
+
+#
+# build McCad shared libraries
+#---------------------------------------------------------------------------
+
+#Prepare MOCs for McCadGUI
+
+SET(McSrc ${PROJECT_SOURCE_DIR}/src)
+SET(McInc ${PROJECT_SOURCE_DIR}/inc)
+
+SET(McGUI ${McSrc}/McCadGUI)
+
+ADD_LIBRARY (TKMcCadGUI		${McGUI}/McCadGUI_GuiFactory.cxx
+                                ${McGUI}/McCadGUI_BaseDialog.cxx
+                                ${McGUI}/McCadGUI_ColorDialog.cxx
+                                ${McGUI}/McCadGUI_FileDialog.cxx
+                                ${McGUI}/McCadGUI_InputDialog.cxx
+                                ${McGUI}/McCadGUI_ProgressDialog.cxx )
+
+SET(McDs ${McSrc}/McCadDiscDs )
+ADD_LIBRARY (TKMcCadDiscDs	${McDs}/McCadDiscDs_SequenceOfDiscFace_0.cxx
+                                ${McDs}/McCadDiscDs_HSequenceOfDiscFace_0.cxx
+                                ${McDs}/McCadDiscDs_ListOfDiscFace_0.cxx
+                                ${McDs}/McCadDiscDs_SequenceOfDiscSolid_0.cxx
+                                ${McDs}/McCadDiscDs_HSequenceOfDiscSolid_0.cxx
+                                ${McDs}/McCadDiscDs_ListOfDiscSolid_0.cxx
+                                ${McDs}/McCadDiscDs_SequenceNodeOfSequenceOfDiscFace_0.cxx
+                                ${McDs}/McCadDiscDs_ListNodeOfListOfDiscFace_0.cxx
+                                ${McDs}/McCadDiscDs_ListIteratorOfListOfDiscFace_0.cxx
+                                ${McDs}/McCadDiscDs_SequenceNodeOfSequenceOfDiscSolid_0.cxx
+                                ${McDs}/McCadDiscDs_ListNodeOfListOfDiscSolid_0.cxx
+                                ${McDs}/McCadDiscDs_ListIteratorOfListOfDiscSolid_0.cxx
+                                ${McDs}/McCadDiscDs_DiscFace.cxx
+                                ${McDs}/McCadDiscDs_SequenceOfSeqOfDiscSolid_0.cxx
+                                ${McDs}/McCadDiscDs_HSequenceOfHSeqOfDiscSolid_0.cxx
+                                ${McDs}/McCadDiscDs_SequenceNodeOfSequenceOfSeqOfDiscSolid_0.cxx
+                                ${McDs}/McCadDiscDs_DiscSolid.cxx )
+
+SET(McTDS ${McSrc}/McCadTDS )
+ADD_LIBRARY (TKMcCadTDS		${McTDS}/McCadTDS_ExtFace.cxx
+                                ${McTDS}/McCadTDS_ExtSolid.cxx
+                                ${McTDS}/McCadTDS_SequenceOfExtFace_0.cxx
+                                ${McTDS}/McCadTDS_HSequenceOfExtFace_0.cxx
+                                ${McTDS}/McCadTDS_SequenceOfExtSolid_0.cxx
+                                ${McTDS}/McCadTDS_HSequenceOfExtSolid_0.cxx
+                                ${McTDS}/McCadTDS_DataMapOfIntegerExtFace_0.cxx
+                                ${McTDS}/McCadTDS_DataMapOfIntegerSolid_0.cxx
+                                ${McTDS}/McCadTDS_SequenceNodeOfSequenceOfExtFace_0.cxx
+                                ${McTDS}/McCadTDS_SequenceNodeOfSequenceOfExtSolid_0.cxx
+                                ${McTDS}/McCadTDS_DataMapNodeOfDataMapOfIntegerExtFace_0.cxx
+                                ${McTDS}/McCadTDS_DataMapIteratorOfDataMapOfIntegerExtFace_0.cxx
+                                ${McTDS}/McCadTDS_DataMapNodeOfDataMapOfIntegerSolid_0.cxx
+                                ${McTDS}/McCadTDS_DataMapIteratorOfDataMapOfIntegerSolid_0.cxx)
+
+ADD_LIBRARY (TKMcCadGTOOL 	${McSrc}/McCadGTOOL/McCadGTOOL.cxx )
+
+ADD_LIBRARY (TKMcCadBoolExp	${McSrc}/McCadBoolExp/McCadBoolExp_PostFixer.cxx
+                                ${McSrc}/McCadBoolExp/McCadBoolExp_ExprParser.cxx )
+
+ADD_LIBRARY (TKMcCadEXPlug	${McSrc}/McCadEXPlug/McCadEXPlug_ExchangePlugin.cxx
+                                ${McSrc}/McCadEXPlug/McCadEXPlug_PluginManager.cxx
+                                ${McSrc}/McCadEXPlug/McCadEXPlug.cxx
+                                ${McSrc}/McCadEXPlug/McCadEXPlug_MCBase.cxx
+                                ${McSrc}/McCadEXPlug/McCadEXPlug_SequenceOfSharedLibrary_0.cxx
+                                ${McSrc}/McCadEXPlug/McCadEXPlug_SequenceNodeOfSequenceOfSharedLibrary_0.cxx )
+
+ADD_LIBRARY (TKMcCadExStep	${McSrc}/McCadExDllStep/McCadExDllStep_Step.cxx )
+
+ADD_LIBRARY (TKMcCadExIges	${McSrc}/McCadExDllIges/McCadExDllIges_Iges.cxx )
+
+ADD_LIBRARY (TKMcCadExBRep  ${McSrc}/McCadExDllBrep/McCadExDllBrep_Brep.cxx )
+
+ADD_LIBRARY (TKMcCadCSGGeom 	${McSrc}/McCadCSGGeom/McCadCSGGeom_SequenceOfSurface_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_SequenceOfCell_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_DataMapOfIntegerSurface_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_DataMapOfIntegerCell_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_SequenceOfTransformation_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_DataMapOfIntegerTransformation_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_SequenceNodeOfSequenceOfSurface_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_SequenceNodeOfSequenceOfCell_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_DataMapNodeOfDataMapOfIntegerSurface_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerSurface_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_DataMapNodeOfDataMapOfIntegerCell_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerCell_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_SequenceNodeOfSequenceOfTransformation_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_DataMapNodeOfDataMapOfIntegerTransformation_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerTransformation_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_HSequenceOfSurface_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_HSequenceOfCell_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_HSequenceOfTransformation_0.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_GQ.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_Sphere.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_Plane.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_Cylinder.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_Torus.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_Cell.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_Cone.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_Transformation.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_SurfaceOfRevolution.cxx
+                                ${McSrc}/McCadCSGGeom/McCadCSGGeom_Surface.cxx )
+
+ADD_LIBRARY (TKMcCadCSGBuild 	${McSrc}/McCadCSGBuild/McCadCSGBuild_SolidFromCSG.cxx )
+
+ADD_LIBRARY (TKMcCadMcWrite 	${McSrc}/McCadMcWrite/McCadMcWrite_McInputGenerator.cxx
+                                ${McSrc}/McCadMcWrite/McCadMcWrite_McnpInputGenerator.cxx
+                                ${McSrc}/McCadMcWrite/McCadMcWrite_TripoliInputGenerator.cxx )
+
+ADD_LIBRARY (TKMcCadMcRead	${McSrc}/McCadMcRead/McCadMcRead_SequenceOfFill_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_HSequenceOfFill_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_DataMapOfIntegerFill_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_SequenceNodeOfSequenceOfFill_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_DataMapNodeOfDataMapOfIntegerFill_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_DataMapIteratorOfDataMapOfIntegerFill_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_SequenceOfCell_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_HSequenceOfCell_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_DataMapOfIntegerCell_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_SequenceNodeOfSequenceOfCell_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_DataMapNodeOfDataMapOfIntegerCell_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_DataMapIteratorOfDataMapOfIntegerCell_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_SequenceOfCellPtr_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_HSequenceOfCellPtr_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_SequenceNodeOfSequenceOfCellPtr_0.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_Cell.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_Fill.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_FillBuilder.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_TrsfBuilder.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_CellBuilder.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_SurfaceFactory.cxx
+                                ${McSrc}/McCadMcRead/McCadMcRead_Reader.cxx )
+
+ADD_LIBRARY (TKMcCadCSG 	${McSrc}/McCadCSGAdapt/McCadCSGAdapt_ShapeAnalyser.cxx
+                                ${McSrc}/McCadCSGAdapt/McCadCSGAdapt_SolidAnalyser.cxx
+                                ${McSrc}/McCadCSGAdapt/McCadCSGAdapt_ShellAnalyser.cxx
+                                ${McSrc}/McCadCSGAdapt/McCadCSGAdapt_FaceAnalyser.cxx
+                                ${McSrc}/McCadCSGAdapt/McCadCSGAdapt_ShapeGeomAnalyser.cxx
+                                ${McSrc}/McCadCSGTool/McCadCSGTool_TrivialCheck.cxx
+                                ${McSrc}/McCadCSGTool/McCadCSGTool_Extender.cxx
+                                ${McSrc}/McCadCSGTool/McCadCSGTool_FaceFuser.cxx
+                                ${McSrc}/McCadCSGTool/McCadCSGTool_CellBuilder.cxx
+                                ${McSrc}/McCadCSGTool/McCadCSGTool_Cutter.cxx
+                                ${McSrc}/McCadCSGTool/McCadCSGTool.cxx
+                                ${McSrc}/McCadCSGTool/McCadCSGTool_Decomposer.cxx
+                                ${McSrc}/McCadCSGTool/McCadCSGTool_SignCheck.cxx
+                                ${McSrc}/McCadCSGTool/McCadCSGTool_SurfaceChecker.cxx )
+
+ADD_LIBRARY (TKMcCadCSGUtil 	${McSrc}/McCadCSGUtil/McCadCSGUtil_SolidBuilder.cxx )
+
+ADD_LIBRARY (TKMcCadExMcnp 	${McSrc}/McCadExDllMcnp/McCadExDllMcnp_Mcnp.cxx )
+
+ADD_LIBRARY (TKMcCadExTripoli ${McSrc}/McCadExDllTripoli/McCadExDllTripoli_Tripoli.cxx)
+
+ADD_LIBRARY (TKMcCadDiscretization ${McSrc}/McCadDiscretization/McCadDiscretization_Face.cxx
+                                ${McSrc}/McCadDiscretization/McCadDiscretization_Solid.cxx )
+
+ADD_LIBRARY (TKMcCadCom		${McSrc}/McCadCom/McCadCom_Document.cxx
+                                ${McSrc}/McCadCom/McCadCom_View.cxx
+                                ${McSrc}/McCadCom/McCadCom_CasDocument.cxx
+                                ${McSrc}/McCadCom/McCadCom_CasView.cxx
+                                ${McSrc}/McCadCom/McCadCom_SequenceOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_ListOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_MapOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_DataMapofIntegerListOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_SequenceOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_ListOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_MapOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_DataMapofIntegerListOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_SequenceNodeOfSequenceOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_ListNodeOfListOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_ListIteratorOfListOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_StdMapNodeOfMapOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_MapIteratorOfMapOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_DataMapNodeOfDataMapofIntegerListOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_DataMapIteratorOfDataMapofIntegerListOfDocument_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_SequenceNodeOfSequenceOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_ListNodeOfListOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_ListIteratorOfListOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_StdMapNodeOfMapOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_MapIteratorOfMapOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_DataMapNodeOfDataMapofIntegerListOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_DataMapIteratorOfDataMapofIntegerListOfView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_SequenceOfCasView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_ListOfCasView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_MapOfCasView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_DataMapofIntegerListOfCasView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_SequenceNodeOfSequenceOfCasView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_ListNodeOfListOfCasView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_ListIteratorOfListOfCasView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_StdMapNodeOfMapOfCasView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_MapIteratorOfMapOfCasView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_DataMapNodeOfDataMapofIntegerListOfCasView_0.cxx
+                                ${McSrc}/McCadCom/McCadCom_DataMapIteratorOfDataMapofIntegerListOfCasView_0.cxx )
+
+ADD_LIBRARY (TKMcCadAEV		${McSrc}/McCadAEV/McCadAEV_Application.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_Editor.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_Viewer.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_SequenceOfViewer_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListOfViewer_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_SequenceOfEditor_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListOfEditor_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_SequenceNodeOfSequenceOfViewer_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListNodeOfListOfViewer_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListIteratorOfListOfViewer_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_SequenceNodeOfSequenceOfEditor_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListNodeOfListOfEditor_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListIteratorOfListOfEditor_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_SequenceOfEditorPtr_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListOfEditorPtr_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_SequenceOfViewerPtr_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListOfViewerPtr_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_SequenceNodeOfSequenceOfEditorPtr_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListNodeOfListOfEditorPtr_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListIteratorOfListOfEditorPtr_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_SequenceNodeOfSequenceOfViewerPtr_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListNodeOfListOfViewerPtr_0.cxx
+                                ${McSrc}/McCadAEV/McCadAEV_ListIteratorOfListOfViewerPtr_0.cxx )
+
+ADD_LIBRARY (TKMcCadMcVoid 	${McSrc}/McCadMcVoid/McCadMcVoid_Generator.cxx
+                                ${McSrc}/McCadMcVoid/McCadMcVoid.cxx
+                                ${McSrc}/McCadMcVoid/McCadMcVoid_ForwardCollision.cxx )
+
+ADD_LIBRARY (TKMcCadTool	${McSrc}/McCadTool/McCadTool_Task.cxx
+                                ${McSrc}/McCadTool/McCadTool_TaskMaster.cxx
+                                ${McSrc}/McCadTool/McCadTool_TaskHistory.cxx
+                                ${McSrc}/McCadTool/McCadTool_ListOfTask_0.cxx
+                                ${McSrc}/McCadTool/McCadTool_ListNodeOfListOfTask_0.cxx
+                                ${McSrc}/McCadTool/McCadTool_ListIteratorOfListOfTask_0.cxx )
+
+ADD_LIBRARY (TKMcCadViewTool	${McSrc}/McCadViewTool/McCadViewTool_FitAll.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_Axis.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_Axo.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_BackProject.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_FrontProject.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_TopProject.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_BottomProject.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_LeftProject.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_RightProject.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_Pan.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_Rotate.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_Reset.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_Zoom.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_SetBackgroundColor.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_SetHiddenLine.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_SetAntialiasing.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_Transparency.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_Dump.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_Redraw.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_ZoomOut.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_ZoomIn.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_SetShadingMode.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_WireFrame.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_Delete.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_SetShapeColor.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_ShowAll.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_HideSelected.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_RedisplaySelected.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_DisplaySelectedOnly.cxx
+                                ${McSrc}/McCadViewTool/McCadViewTool_ReadValueList.cxx )
+
+ADD_LIBRARY (TKMcCadConvertTools ${McSrc}/McCadConvertTools/McCadConvertTools_Convertor.cxx
+                                 ${McSrc}/McCadConvertTools/McCadConvertTools_VoidGenerator.cxx )
+
+ADD_LIBRARY (TKMcCadIOHelper    ${McSrc}/McCadIOHelper/McCadIOHelper_InputFileParser.cxx
+                                ${McSrc}/McCadIOHelper/McCadIOHelper_Expander.cxx
+                                ${McSrc}/McCadIOHelper/McCadIOHelper_Merger.cxx )
+
+ADD_LIBRARY (TKMcCadMDReader    ${McSrc}/McCadMDReader/McCadMDReader_DataMapIteratorOfDataMapOfAsciiStringReal_0.cxx
+                                ${McSrc}/McCadMDReader/McCadMDReader_DataMapNodeOfDataMapOfAsciiStringReal_0.cxx
+                                ${McSrc}/McCadMDReader/McCadMDReader_DataMapOfAsciiStringReal_0.cxx
+                                ${McSrc}/McCadMDReader/McCadMDReader_MapAsciiStringHasher_0.cxx
+                                ${McSrc}/McCadMDReader/McCadMDReader_Reader.cxx )
+
+ADD_LIBRARY (TKMcCadXCAF	${McSrc}/McCadXCAF/McCadXCAF_Application.cxx
+                                ${McSrc}/McCadXCAF/McCadXCAF_TDocShapeLabelIterator.cxx )
+
+ADD_LIBRARY (TKQMcCadTools	${McSrc}/McCadDesign/McCadDesign_Tool.cxx
+                                ${McSrc}/McCadDesign/McCadDesign_MakeBox.cxx
+                                ${McSrc}/McCadDesign/McCadDesign_MakeCylinder.cxx
+                                ${McSrc}/McCadDesign/McCadDesign_MakeCone.cxx
+                                ${McSrc}/McCadDesign/McCadDesign_MakeSphere.cxx
+                                ${McSrc}/McCadDesign/McCadDesign_CopyTo.cxx
+                                ${McSrc}/McCadDesign/McCadDesign_Rotate.cxx
+                                ${McSrc}/McCadDesign/McCadDesign_MoveTo.cxx
+                                ${McSrc}/McCadDesign/McCadDesign_Scale.cxx)
+
+ADD_LIBRARY (TKMcCadMessenger  ${McSrc}/McCadMessenger/McCadMessenger_Singleton.cxx
+                                ${McSrc}/McCadMessenger/McCadMessenger_StdOut.cxx
+)
+
+ADD_LIBRARY (TKQMcCadMessenger  ${McSrc}/QMcCadMessenger/QMcCadMessenger_MainWindowMessage.cxx
+)
+
+add_library (TKMcCadIOTools     ${McSrc}/McCadIOTools/McCadIOTools_ExportBrep.cxx
+                                ${McSrc}/McCadIOTools/McCadIOTools_ExportMcnp.cxx
+                                ${McSrc}/McCadIOTools/McCadIOTools_ExportIges.cxx
+                                ${McSrc}/McCadIOTools/McCadIOTools_ExportStep.cxx
+                                ${McSrc}/McCadIOTools/McCadIOTools_ExportTripoli.cxx
+                                ${McSrc}/McCadIOTools/McCadIOTools_ImportBrep.cxx
+                                ${McSrc}/McCadIOTools/McCadIOTools_ImportIges.cxx
+                                ${McSrc}/McCadIOTools/McCadIOTools_ImportMcnp.cxx
+                                ${McSrc}/McCadIOTools/McCadIOTools_ImportStep.cxx
+                                ${McSrc}/McCadIOTools/McCadIOTools_MCExportBase.cxx
+                                ${McSrc}/McCadIOTools/McCadIOTools.cxx )
+
+
+#
+# Link libraries with each other
+#-------------------------------------------------------
+target_link_libraries (TKMcCadGUI	TKernel ${QT_LIBRARIES})
+
+target_link_libraries (TKMcCadDiscDs    TKernel
+                                        TKMath
+                                        TKG3d
+                                        TKG2d
+                                        TKBRep
+                                        TKTopAlgo )
+
+target_link_libraries (TKMcCadTDS	TKMath
+                                        TKG2d
+                                        TKernel
+                                        TKBRep
+                                        TKGeomBase
+                                        TKG3d  )
+
+target_link_libraries (TKMcCadGTOOL	TKMath
+                                        TKG3d
+                                        TKernel
+                                        TKGeomAlgo
+                                        TKG2d
+                                        TKGeomBase
+                                        TKBRep  )
+
+target_link_libraries (TKMcCadBoolExp	TKernel  )
+
+target_link_libraries (TKMcCadEXPlug	TKernel
+                                        TKMcCadGUI
+                                        TKBRep
+                                        TKMcCadDiscDs
+                                        TKGeomBase
+                                        TKMath
+                                        TKG2d
+                                        TKG3d
+                                        TKTopAlgo
+                                        TKGeomAlgo
+                                        TKXDESTEP )
+
+target_link_libraries (TKMcCadExStep	TKMath
+                                        TKernel
+                                        TKG2d
+                                        TKSTEP
+                                        TKBRep
+                                        TKG3d
+                                        TKXSBase
+                                        TKMcCadGUI
+                                        TKMcCadEXPlug
+                                        TKMcCadDiscDs
+                                        TKSTEPBase
+                                        TKSTEPAttr
+                                        TKShHealing
+                                        TKSTEP209
+                                        TKGeomBase
+                                        TKGeomAlgo
+                                        TKTopAlgo  )
+
+target_link_libraries (TKMcCadExIges	TKernel
+                                        TKMcCadEXPlug
+                                        TKXSBase
+                                        TKBRep
+                                        TKIGES
+                                        TKG2d
+                                        TKMcCadGUI
+                                        TKMath
+                                        TKMcCadDiscDs
+                                        TKG3d
+                                        TKShHealing
+                                        TKGeomBase
+                                        TKTopAlgo
+                                        TKOffset
+                                        TKGeomAlgo
+                                        TKBool
+                                        TKPrim
+                                        TKBO
+                                        TKFillet
+                                        TKXDEIGES  )
+
+target_link_libraries (TKMcCadExBRep	TKernel
+                                        TKMcCadEXPlug
+                                        TKBRep )
+
+target_link_libraries (TKMcCadCSGGeom	TKMath
+                                        TKG3d
+                                        TKernel
+                                        TKMcCadGTOOL
+                                        TKG2d
+                                        TKGeomAlgo
+                                        TKGeomBase
+                                        TKBRep  )
+
+target_link_libraries (TKMcCadCSGBuild	TKBool
+                                        TKernel
+                                        TKBO
+                                        TKG3d
+                                        TKTopAlgo
+                                        TKShHealing
+                                        TKMath
+                                        TKBRep
+                                        TKMesh
+                                        TKGeomAlgo
+                                        TKG2d
+                                        TKGeomBase
+                                        TKPrim
+                                        TKMcCadCSGGeom
+                                        TKMcCadGTOOL
+                                        )
+
+target_link_libraries (TKMcCadMcWrite	TKMath
+                                        TKernel
+                                        TKMcCadCSGGeom
+                                        TKG3d
+                                        TKMcCadGTOOL
+                                        TKGeomAlgo
+                                        TKGeomBase
+                                        TKBRep)
+
+target_link_libraries (TKMcCadMcRead	TKMath
+                                        TKernel
+                                        TKG3d
+                                        TKMcCadBoolExp
+                                        TKMcCadCSGGeom
+                                        TKG2d
+                                        TKMcCadGTOOL
+                                        TKGeomAlgo
+                                        TKGeomBase
+                                        TKBRep)
+
+target_link_libraries (TKMcCadCSG	TKernel
+                                        TKBO
+                                        TKG2d
+                                        TKG3d
+                                        TKShHealing
+                                        TKMath
+                                        TKBRep
+                                        TKMesh
+                                        TKMcCadTDS
+                                        TKGeomBase
+                                        TKGeomAlgo
+                                        TKBool
+                                        TKPrim
+                                        TKTopAlgo
+                                        TKSTEP
+                                        TKMcCadGTOOL
+                                        TKMcCadCSGGeom
+                                        TKMcCadMessenger
+                                        #TKMesh
+                                        #TKMcCadDiscDs
+                                        #TKXSBase
+                                        #TKMcCadMcRead
+)
+
+target_link_libraries (TKMcCadCSGUtil	TKMath
+                                        TKTopAlgo
+                                        TKG2d
+                                        TKMcCadCSGBuild
+                                        TKPrim
+                                        TKBRep
+                                        TKG3d
+                                        TKBO
+                                        TKernel
+                                        TKMcCadGTOOL
+                                        TKMcCadMcRead
+                                        TKMcCadCSGGeom
+                                        TKGeomBase
+                                        TKGeomAlgo
+                                        TKBool
+                                        TKShHealing
+                                        TKMesh
+                                        TKMcCadBoolExp)
+
+target_link_libraries (TKMcCadExMcnp	TKernel
+                                        TKMcCadEXPlug
+                                        TKBRep
+                                        TKMath
+                                        TKG2d
+                                        TKMcCadCSGBuild
+                                        TKMcCadMcWrite
+                                        TKMcCadCSGUtil
+                                        TKMcCadDiscDs
+                                        TKG3d
+                                        TKMcCadGUI
+                                        TKMcCadCSGGeom
+                                        TKMcCadMcRead
+                                        TKMcCadTDS
+                                        TKMcCadCSG
+                                        TKGeomBase
+                                        TKBool
+                                        TKBO
+                                        TKTopAlgo
+                                        TKMcCadGTOOL
+                                        TKPrim
+                                        TKShHealing
+                                        TKGeomAlgo
+                                        TKMesh
+                                        TKMcCadBoolExp )
+
+target_link_libraries (TKMcCadExTripoli  TKernel
+                                        TKMcCadEXPlug
+                                        TKBRep
+                                        TKMath
+                                        TKG2d
+                                        TKMcCadCSGBuild
+                                        TKMcCadMcWrite
+                                        TKMcCadCSGUtil
+                                        TKMcCadDiscDs
+                                        TKG3d
+                                        TKMcCadGUI
+                                        TKMcCadCSGGeom
+                                        TKMcCadMcRead
+                                        TKMcCadTDS
+                                        TKMcCadCSG
+                                        TKGeomBase
+                                        TKBool
+                                        TKBO
+                                        TKTopAlgo
+                                        TKMcCadGTOOL
+                                        TKPrim
+                                        TKShHealing
+                                        TKGeomAlgo
+                                        TKMesh
+                                        TKMcCadBoolExp)
+
+target_link_libraries (TKMcCadDiscretization 	TKMath
+                                                TKernel
+                                                TKG2d
+                                                TKBRep
+                                                TKGeomAlgo
+                                                TKG3d
+                                                TKMcCadDiscDs
+                                                TKTopAlgo
+                                                TKGeomBase )
+
+target_link_libraries (TKMcCadCom	TKMath
+                                        TKernel
+                                        TKService
+                                        TKV3d
+                                        TKMcCadGUI
+                                        TKV2d
+                                        TKG2d
+                                        TKBRep
+                                        TKG3d
+                                        TKTopAlgo
+                                        TKGeomBase
+                                        TKMesh
+                                        TKGeomAlgo
+                                        TKHLR)
+
+target_link_libraries (TKMcCadAEV	TKMath
+                                        TKernel
+                                        TKMcCadCom
+                                        TKV3d
+                                        TKBRep
+                                        TKG2d
+                                        TKG3d
+                                        TKService
+                                        TKMcCadGUI
+                                        TKV2d
+                                        TKMcCadTool
+                                        TKTopAlgo
+                                        TKGeomBase
+                                        TKMesh
+                                        TKGeomAlgo
+                                        TKHLR
+                                        TKMcCadDiscDs)
+
+target_link_libraries (TKMcCadMcVoid	TKernel
+                                        TKMcCadCSG
+                                        TKBO
+                                        TKG3d
+                                        TKTopAlgo
+                                        TKMath
+                                        TKBRep
+                                        TKMcCadDiscDs
+                                        TKG2d
+                                        TKMcCadTDS
+                                        TKBool
+                                        TKMcCadCSGBuild
+                                        TKPrim
+                                        TKGeomAlgo
+                                        TKMcCadCSGGeom
+                                        TKMcCadGTOOL
+                                        TKMcCadDiscretization
+                                        TKGeomBase
+                                        TKShHealing
+                                        TKMesh )
+
+target_link_libraries (TKMcCadTool	TKMcCadCom
+                                        TKService
+                                        TKMcCadGUI
+                                        TKV3d
+                                        TKernel
+                                        TKMath
+                                        TKV2d
+                                        TKG2d
+                                        TKBRep
+                                        TKG3d
+                                        TKTopAlgo
+                                        TKGeomBase
+                                        TKMesh
+                                        TKGeomAlgo
+                                        TKHLR)
+
+target_link_libraries (TKMcCadViewTool	TKMath
+                                        TKernel
+                                        TKMcCadCom
+                                        TKService
+                                        TKV3d
+                                        TKMcCadGUI
+                                        TKMcCadTool
+                                        TKG2d
+                                        TKG3d
+                                        TKV2d
+                                        TKBRep
+                                        TKTopAlgo
+                                        TKGeomBase
+                                        TKMesh
+                                        TKGeomAlgo
+                                        TKHLR)
+
+target_link_libraries (TKMcCadConvertTools 	TKG2d
+                                                TKernel
+                                                # TKMcCadEXPlug
+                                                TKMath
+                                                TKBRep
+                                                TKMcCadTDS
+                                                TKMcCadCSG
+                                                TKMcCadMcVoid
+                                                TKMcCadMcWrite
+                                                TKMcCadGUI
+                                                TKMcCadDiscDs
+                                                TKGeomBase
+                                                TKG3d
+                                                TKBO
+                                                TKShHealing
+                                                TKGeomAlgo
+                                                TKBool
+                                                TKPrim
+                                                TKTopAlgo
+                                                TKMcCadGTOOL
+                                                TKMcCadCSGGeom
+                                                TKMesh
+                                                TKMcCadCSGBuild
+                                                TKMcCadDiscretization
+                                                TKMeshVS
+                                                TKMcCadMDReader )
+
+target_link_libraries (TKMcCadXCAF	TKLCAF
+                                        TKXCAF
+                                        TKernel
+                                        TKCDF )
+
+target_link_libraries (TKMcCadMDReader  TKLCAF
+                                        TKMcCadXCAF )
+
+target_link_libraries (TKMcCadIOTools   TKMcCadExMcnp
+                                        TKMcCadMDReader
+                                        TKMcCadConvertTools )
+
+
+#####################################################################
+#								    #
+#			 Build McCad executable			    #
+#								    #
+#####################################################################
+
+SET ( QMCCAD ${McSrc}/QMcCad )
+
+SET (QSRCS 	${QMCCAD}/main.cpp
+                ${QMCCAD}/QMcCad_Application.cpp
+                ${QMCCAD}/QMcCad_Editor.cpp
+                ${QMCCAD}/QMcCad_ActionFactory.cpp
+                ${QMCCAD}/QMcCad_ActionMaster.cpp
+                ${QMCCAD}/QMcCad_Viewer.cpp
+                ${QMCCAD}/QMcCad_View.cpp
+                ${QMCCAD}/QMcCad_LogWindow.cpp
+                ${QMCCAD}/QMcCad_VGParamDialog.cpp
+                ${McSrc}/QMcCadGeomeTree/QMcCadGeomeTree_TreeWidget.cxx
+                ${McSrc}/QMcCadGeomeTree/QMcCadGeomeTree_AddToMGDialog.cxx
+                ${QMCCAD}/QMcCad_TransparencyDialog.cpp
+                ${QMCCAD}/QMcCad_ClippingPlaneDialog.cpp
+                ${QMCCAD}/QMcCad_ReadListDialog.cxx)
+
+SET (OCC_LIBRARIES 	TKernel
+                        TKMath
+                        TKService
+                        TKG2d
+                        TKBRep
+                        TKG3d
+                        TKGeomBase
+                        TKV3d
+                        TKBool
+                        TKTopAlgo
+                        TKGeomAlgo
+                        TKFillet
+                        TKV2d
+                        TKPrim
+                        TKHLR
+                        TKMesh
+                        TKBO
+                        TKShHealing
+                        TKCDF
+                        TKLCAF
+                        TKXDESTEP
+                        TKXDEIGES
+                        TKXCAF
+                        TKCAF  )
+
+SET (MCCAD_LIBRARIES	TKMcCadAEV
+                        TKMcCadBoolExp
+                        TKMcCadCom
+                        TKMcCadConvertTools
+                        TKMcCadCSG
+                        TKMcCadCSGBuild
+                        TKMcCadCSGGeom
+                        TKMcCadCSGUtil
+                        TKMcCadDiscDs
+                        TKMcCadDiscretization
+                        TKMcCadEXPlug
+                        TKMcCadGTOOL
+                        TKMcCadGUI
+                        TKMcCadIOHelper
+                        TKMcCadIOTools
+                        TKMcCadMcRead
+                        TKMcCadMcVoid
+                        TKMcCadMcWrite
+                        TKMcCadMDReader
+                        TKMcCadMessenger
+                        TKMcCadTDS
+                        TKMcCadTool
+                        TKMcCadXCAF
+                        TKMcCadViewTool
+                        TKQMcCadMessenger
+                        TKQMcCadTools
+     )
+
+
+#
+# Executable
+#---------------------------------------------------------------------------
+QT4_WRAP_CPP(MOCS 	${McInc}/QMcCad_Application.h
+                        ${McInc}/QMcCad_Editor.h
+                        ${McInc}/QMcCad_ActionFactory.h
+                        ${McInc}/QMcCad_ActionMaster.h
+                        ${McInc}/QMcCad_View.h
+                        ${McInc}/QMcCad_LogWindow.h
+                        ${McInc}/QMcCad_VGParamDialog.h
+                        ${McInc}/QMcCadGeomeTree_TreeWidget.hxx
+                        ${McInc}/QMcCadGeomeTree_AddToMGDialog.h
+                        ${McInc}/McCadDesign_MakeBox.hxx
+                        ${McInc}/McCadDesign_MakeCylinder.hxx
+                        ${McInc}/McCadDesign_MakeCone.hxx
+                        ${McInc}/McCadDesign_MakeSphere.hxx
+                        ${McInc}/McCadDesign_CopyTo.hxx
+                        ${McInc}/McCadDesign_Rotate.hxx
+                        ${McInc}/McCadDesign_MoveTo.hxx
+                        ${McInc}/McCadDesign_Scale.hxx
+                        ${McInc}/QMcCad_TransparencyDialog.h
+                        ${McInc}/QMcCad_ClippingPlaneDialog.h
+                        ${McInc}/QMcCad_ReadListDialog.hxx
+)
+
+
+ADD_EXECUTABLE (McCadApp ${QSRCS}
+                         ${MOCS}
+                         ${QMCCAD}/qrc_qmccad.cpp )
+
+#
+# link libraries to the executable
+#---------------------------------------------------------------------------
+
+TARGET_LINK_LIBRARIES (McCadApp  ${OCC_LIBRARIES}
+                                 ${QT_LIBRARIES}
+                                 ${MCCAD_LIBRARIES}
+                                 pthread )
+
+
+#
+# define installation
+#
+install ( TARGETS McCadApp
+                  ${MCCAD_LIBRARIES}
+                  TKMcCadExBRep
+                  TKMcCadExIges
+                  TKMcCadExStep
+                  TKMcCadExMcnp
+                  TKMcCadExTripoli
+          RUNTIME DESTINATION bin
+          LIBRARY DESTINATION lib )
+
+install( FILES ${PROJECT_SOURCE_DIR}/bin/McCad
+               ${PROJECT_SOURCE_DIR}/bin/McCadConvertScript
+         DESTINATION ${CMAKE_INSTALL_PREFIX}/bin
+         PERMISSIONS OWNER_READ
+                     OWNER_WRITE
+                     OWNER_EXECUTE
+                     GROUP_READ
+                     GROUP_EXECUTE
+                     WORLD_READ
+                     WORLD_EXECUTE )
+
+install( DIRECTORY ${PROJECT_SOURCE_DIR}/doc
+                   ${PROJECT_SOURCE_DIR}/tutorial
+         DESTINATION ${CMAKE_INSTALL_PREFIX}/share/mccad
+         FILE_PERMISSIONS OWNER_READ
+                     OWNER_WRITE
+                     OWNER_EXECUTE
+                     GROUP_READ
+                     GROUP_EXECUTE
+                     WORLD_READ
+                     WORLD_EXECUTE
+         DIRECTORY_PERMISSIONS OWNER_READ
+                               OWNER_WRITE
+                               OWNER_EXECUTE
+                               GROUP_READ
+                               GROUP_EXECUTE
+                               WORLD_READ
+                               WORLD_EXECUTE )

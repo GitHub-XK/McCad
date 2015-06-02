@@ -1,0 +1,213 @@
+Change Log
+===============
+
+legend:
+        - = removal
+        + = addition
+        ~ = change
+        ! = bugfix
+        # = ticket number on the trac system
+---------------------------------------------------------------
+
+Changes to previous version 0.3.0
+==================================
+
+CMakeLists.txt
+ ~ set variable BIT to support 64 bit debian packages
+
+main.cpp
+ ~ restructured to support deletion of IO actions from ConvertTools
+ - moved PrintUsage to external header McCadPrintUsage.h
+ + McCadPrintUsage.h
+
+McCadConvertTools_Convertor
+ - all read/write responsibilities for files
+ - GetDecomposedSolid() was redundant
+ - wok files .ixx, .jxx
+
+McCadConvertTools_Expander
+ - file IO
+ - dependencies on TKMcCadEXPlug
+
+- McCadConvertTools_Expander: moved to McCadIOHelper_Expander
+
+- McCadConvertTools_Merger: moved to McCadIOHelper_Merger
+
+McCadConvertTools_VoidGenerator
+ ! fixed localization bug in ::Voxelization()
+ ~ CreateBoundingBox() -> MakeBoundingBox()
+ - File IO operations
+ - SetModelName(...)
+ - Init(... theParameterFile)
+ - AddFile(...)
+ - AddDirectory(...)
+ - AddHSeqOfShp(...)
+ - BuildCells()
+ - Get/SetParameterFile(...)
+ - Get/SetWriteCollision(...)
+ - Get/SetWriteDiscreteModel(...)
+ - Get/SetMinimumInputSolidVolume(...)
+ - Get/SetMinimumVoidVolume(...)
+ - Get/SetMinimumSizeOfDecompositionFaceArea(...)
+ - Get/SetMinimumSizeOfReDecompositionFaceArea(...)
+ - Get/SetMaximumNumberOfPredecompositionCells(...)
+ - Get/SetMaximumNumberOfComplementedCells(...)
+ - Get/SetBoundingBox(...)
+ - Get/SetMinimumNumberOfSamplePoints(...)
+ - Get/SetMaximumNumberOfSamplePoints(...)
+ - Get/SetXResolution(...)
+ - Get/SetYResolution(...)
+ - Get/SetResolution(...)
+ - Get/SetTolerance(...)
+ - GetProgressDialog()
+ - Wok-files .ixx, .jxx
+ + SetParameters(McCadIOHelper_VGParameters...)
+
+McCadCSGTool_TrivialCheck.{i/j}xx
+  - unused bloat-files from OCCT_WOK
+
+McCadCSGTool
+  - removed experimental special treatment for tori which increased complexity
+    by linking against McCadMcWrite
+
+McCadCSGTool_SignCheck.cxx
+  - Removed unused non-member methods Perturb and MakeMcCadSurf
+  - junk code
+  ! planes mirrored in the origin were recognized as same
+  ~ decreased tolerance for point classification (it happened that not enough sample
+    points were found)
+
+McCadCSGAdapt_SolidAnalyser
+ - removed unused methods
+ + added documentation
+
+McCadCSGTool::AppBoxResultants
+  - Not used in code hence removed, in this case outcommented because it might be of use in class
+    McCadCSGTool_SignCheck
+
+McCadCSGTool_Decomposer
+  - removed unused code:
+    members:
+     myIsTrivial
+     myCutState
+     myNumberOfSolids
+  - methods:
+     IsCutSolid()
+     IsTrivialSolid()
+     NbUnprocessedSolids()
+
+McCadCSGTool_Decomposer
+  ~ renamed method ProcessedSolid() to GetProcessedSolid()
+
+McCadCSGTool_Cutter
+  - removed unused includes
+  - removed unused code:
+     PosHalfSpaceSolid()
+     NegHalfSpaceSolid()
+  - non member junk code:
+     HaveSolid()
+     RepairOpenShell()
+
+McCadExDll*
+ - removed dependencies from QObject
+
+McCadEXPlug_MCBase
+ + McCadIOHelper_InputFileParser into PrepareExport()
+
++ McCadIOHelper_InputFileParser
+  added file parser for InputFile for Void Generator - before: file was read and processed in
+  McCadConvertTools_VoidGenerator
+
++ McCadIOHelper_Expander
+  moved from McCadConvertTools
+
++ McCadIOHelper_Merger
+  moved from McCadConvertTools
+
++ McCadIOTools_*
+  new tool group from which each class inherits McCadTool_Task to have a unified action control
+  from GUI
+  + _MCExportBase .. for sign constant decomposition and void generation
+  + _ExportBrep
+  + _ExportIges
+  + _ExportStep
+  + _ExportMcnp
+  + _ExportTripoli
+  + _ImportBrep
+  + _ImportIges
+  + _ImportMcnp
+  + _ImportStep
+
+McCadGUI_*
+ ~ removed dependencies from QObject
+
+McCadMessenger_XXX
+  Classes for an internal messenger system which requires linking against interfaces only;
+  McCadMessenger_Singleton substitutes McCadGUI_Messenger;
+  Instances of the singleton can be created in every class in McCad. One can register observers
+  inherited from McCadMessenger_ObserverInterface;
+  The QMcCad_Application registers a QMcCadMessenger_MainWindowMessenger with the Singleton which
+  is linked to the main windows message window.
+
+McCadMcVoid_Generator
+ - removed exit statement which was ment for debugging purposes only
+
+McCadTool_TaskID
+ + McCadTool_ExportMCBase
+
+
+Changes to previous version 0.2.1
+==================================
+
+- McCadConvertTools_VoidGeneration : removal of obsolete methods
+  ::WriteVoidsFile()
+  ::WriteModelFile()
+  ::WriteMCNPFile()
+  ::WriteAll()
+
++ Adding script to delete files which are unneccessary for shipping
+  prepareForShipping
+
++ example directory
+  + two ParameterFiles for McCad, one very detailed with parameter explanation, the other is minimalistic
+  + brick.stp - simple example geometry for the first steps in McCad
+
++ update of the doc/index.html to current state (version 0.2.1, use of oce)
+
+- Removed obsolete McCadMcVoid_Generator::SetMinSolidVolume()
+- Removed obsolete McCadMcVoid_Generator::myMinSolidVolume
+- Removed obsolete parameter McCadMcVoid_Generator::myMaxSubdivision and related methods
+- Removed obsolete parameter McCadMcVoid_Generator::myMaxInShapes and related methods
+~ changed McCadMcVoid_Generator::SetTolrenace() to McCadMcVoid_Generator::SetTolerance()
++ added method documentation for McCadMcVoid_Generator
+
++ added documentation for McCadGTOOL
+
+! McCadCSGTool::BoxResultants()
+  trac ticket #8
+  In one case two different planar faces must be added to the resultants
+  This bug created twice the same plane instead
+
+~ McCadCSGTool_TrivialCheck
+  in constructors set 'myIsDone' default to 'false'
+
+
+~ Reestablishing support for OCC 6.5.0
+  To make use of the older release version, e.g. to use precompiled libraries (debian package, readhead package)
+  run cmake with the parameters -DOCC650=true i.e.
+  > cmake .. -DOCC650=true -DOCC_INCLUDE_PATH=/path/to/includes -DOCC_LIB_DIR=/path/to/OCClibs
+
+~ McCadConvertTools_Convertor::Convert()
+  #3
+  changed name of volume control log file from .failedVolumeControl to failedVolumeControl.log
+  it didn't make sense to hide this file
+
+~ McCadConvertTools_VoidGenerator
+  #5
+  writing and reading voxel files to/from subdirectory voxels
+  ~ make CollisionFile unhid
+
+~ McCadMcWrite_McnpInputGenerator
+  change filename of CAD volumes to CadVolumes
+
+

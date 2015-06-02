@@ -1,0 +1,37 @@
+#
+#      McCadInputFile.txt - EXAMPLE
+#
+# '#' introduces a comment line
+# The format of this file is "keyword" "Value" where value can be a
+# string, a real, or integer value. Order is irrelevant. 
+# Each line that isn't a comment or begins with a key word will be 
+# treated as input directory containing converted*.stp files.
+#
+# Do not put comments in keyword lines!!!
+#
+InitSurfNb               1
+InitCellNb               1
+WriteCollisionFile       1
+WriteDiscreteModel       1
+MinimumInputSolidVolume  1.00
+MinimumVoidVolume        1.25e2
+MinimumSizeOfDecompositionFaceArea   50
+MaximumNumberOfComplementedCells     10
+MaximumNumberOfPreDecompositionCells 100
+MinimumSizeOfRedecompositionFaceArea 2
+MinimumNumberOfSamplePoints 10
+MaximumNumberOfSamplePoints 20
+XResolution  0.001
+YResolution  0.001
+RResolution  0.00314
+MaxDecomposeDepth 15
+MaxCellExpressionLength 500
+Tolerance  1e-4
+VoidGenerate 0
+#
+#BoundingBox  /home/user/Testarea/Bounding_Box/BB.stp       ... location and name of bounding box
+#MDFile       /home/user/Testarea/MaterialList/MDList.txt   ... Material and Density information - MCNP only
+#
+# directories that contain the converted*.stp files
+/work/Programming/McCadTrunk/bin
+

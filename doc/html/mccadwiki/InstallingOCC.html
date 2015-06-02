@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>
+      InstallingOCC –
+      McCad
+    </title>
+        <link rel="search" href="https://inrserv09.irs.fzk.de/trac/mccad/search">
+        <link rel="help" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TracGuide">
+        <link rel="alternate" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC?format=txt" type="text/x-trac-wiki" title="Plain Text">
+        <link rel="up" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC" title="View Latest Version">
+        <link rel="start" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki">
+        <link rel="stylesheet" href="InstallingOCC_files/trac.css" type="text/css"><link rel="stylesheet" href="InstallingOCC_files/wiki.css" type="text/css">
+        <link rel="shortcut icon" href="https://inrserv09.irs.fzk.de/trac/mccad/chrome/common/trac.ico" type="image/x-icon">
+        <link rel="icon" href="https://inrserv09.irs.fzk.de/trac/mccad/chrome/common/trac.ico" type="image/x-icon">
+      <link type="application/opensearchdescription+xml" rel="search" href="https://inrserv09.irs.fzk.de/trac/mccad/search/opensearch" title="Search McCad">
+    <script type="text/javascript" src="InstallingOCC_files/jquery.js"></script><script type="text/javascript" src="InstallingOCC_files/trac.js"></script><script type="text/javascript" src="InstallingOCC_files/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/trac/mccad/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TracIni#header_logo-section"><img src="InstallingOCC_files/your_project_logo.html" alt="(please configure the [header_logo] section in trac.ini)"></a>
+      </div>
+      <form id="search" action="/trac/mccad/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input id="proj-search" name="q" size="18" type="text">
+          <input value="Search" type="submit">
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first">logged in as grosse</li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/logout">Logout</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/prefs">Preferences</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="https://inrserv09.irs.fzk.de/trac/mccad/about">About Trac</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki">Wiki</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/timeline">Timeline</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/roadmap">Roadmap</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/browser">Browse Source</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/report">View Tickets</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/newticket">New Ticket</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/search">Search</a></li><li class="last"><a href="https://inrserv09.irs.fzk.de/trac/mccad/admin" title="Administration">Admin</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+            <li class="first "><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/WikiStart">Start Page</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TitleIndex">Index</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC?action=history">History</a></li><li class="last"><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC?action=diff&amp;version=8">Last Change</a></li>
+          </ul>
+        <hr>
+      </div>
+    <div id="content" class="wiki">
+      <div class="wikipage searchable">
+        
+          <h1 id="InstallationandsetupoftheOpenCASCADElibraries">Installation and setup of the OpenCASCADE libraries<a title="Link to this section" href="#InstallationandsetupoftheOpenCASCADElibraries" class="anchor"> ¶</a></h1>
+<p>
+To install the original OCC libraries from the <a class="ext-link" href="http://www.opencascade.org/"><span class="icon">www.opencascade.org</span></a> follow the guide in subsection <a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC#OCC">OCC</a>. <br>
+For the use of the community edition (recommended) follow the guide in subsection <a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC#OCE">OCE</a>. <br>
+To setup the environment for the use of the OCC libraries read subsection <a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC#Setup">Setup</a>.<br>
+</p>
+<p>
+For a detailed description of the installation procedure on a freshly installed Linux Mint box see subsection <a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC#Example">Example</a>.
+</p>
+<h2 id="Prerequisites">Prerequisites<a title="Link to this section" href="#Prerequisites" class="anchor"> ¶</a></h2>
+<p>
+The following packages can be acquired via a package manager like apt-get.
+</p>
+<ul><li>g++  4.6
+</li><li>TCL  8.5.8
+</li><li>TK   8.5.8
+</li><li>TclX 8.4.0
+</li><li>FreeType 2.3.7
+</li><li>Ftgl 2.1.2 (2.1.3 valid for OCE)
+</li><li>X11 Xmu
+</li></ul><h2 id="OCC">OCC<a title="Link to this section" href="#OCC" class="anchor"> ¶</a></h2>
+<p>
+To obtain the latest package (release period is about one year) of OCC libraries, download the tar.gz package from <a class="ext-link" href="http://www.opencascade.org/getocc/download/loadocc"><span class="icon">opencascade.org</span></a><br>
+OCC 6.5.2 provides a detailed <a href="https://inrserv09.irs.fzk.de/trac/mccad/attachment/wiki/InstallingOCC/OCCT_building_in_details_Linux.pdf">description</a> of the installation process. <br>
+If the distribution you're using comes with a package manager, you 
+definitely want to use that instead of compiling each dependency package
+ by yourself. <br>
+<span class="underline"><strong>Caution! </strong></span> The original OCC (6.5.2) does not compile with the latest version of <i>Ftgl</i>. Be sure to use version 2.1.2 as mentioned in the description. <br>
+</p>
+<p>
+The short version of the installation procedure is as follows:<br>
+After the download of the package make a directory where OCC will be compiled and copy the .tar.gz into that directory
+</p>
+<pre class="wiki">   &gt; mkdir OCCCompileDir
+   &gt; cd OCCCompileDir
+   &gt; cp .../OpenCASCADE652.tar.gz ./
+</pre><p>
+Extract the package and enter the <i>ros</i> subdirectory
+</p>
+<pre class="wiki">   &gt; tar xvf OpenCASCADE652.tar.gz
+   &gt; cd ros
+</pre><p>
+Generate the configure file and run the usual suspects (configure, make, make install)
+</p>
+<pre class="wiki">   &gt; ./build_configure
+   &gt; ./configure
+   &gt; make
+   &gt; sudo make install
+</pre><p>
+After the libraries have been installed, the environment has to be prepared for the use of OCC. See subsection <a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC#Setup">Setup</a>
+</p>
+<h2 id="OCE">OCE<a title="Link to this section" href="#OCE" class="anchor"> ¶</a></h2>
+<p>
+The latest version of OCE can be downloaded from the git repository on: <a class="ext-link" href="https://github.com/tpaviot/oce"><span class="icon">github</span></a><br>
+To download OCE git must be installed on your machine. Downloadable from: <a class="ext-link" href="http://git-scm.com/"><span class="icon">git-scm.com</span></a>
+</p>
+<p>
+Use:
+</p>
+<pre class="wiki">   git clone git://github.com/tpaviot/oce.git .../TargetDirectory
+</pre><p>
+After you've cloned the repository, you can generate the native makefile with cmake. 
+</p>
+<pre class="wiki">   &gt; cd .../TargetDirectory
+   &gt; mkdir build
+   &gt; cd build
+   &gt; cmake ..
+</pre><p>
+This generates a Makefile in the build directory. The standard 
+installation directory is /usr/local/. If you want to install the 
+libraries in a different directory, run cmake with the following 
+argument
+</p>
+<pre class="wiki">   &gt; cmake .. -DOCE_INSTALL_DIR=/path/to/your/target/directory
+</pre><p>
+From this point you just run the usual make and as super user make install...
+</p>
+<pre class="wiki">   &gt; make
+   &gt; sudo make install
+</pre><p>
+After the libraries have been installed, the environment has to be prepared for the use of OCE. See subsection <a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC#Setup">Setup</a>
+</p>
+<h2 id="Setup">Setup<a title="Link to this section" href="#Setup" class="anchor"> ¶</a></h2>
+<p>
+OCC and OCE use a different directory structures in the installation process. <br>
+The standard installation prefix is <i>/usr/local/</i> for both packages but OCC copies the header files to <i>$prefix/inc</i> while OCE copies the header files to <i>$prefix/include/oce</i> <br>
+For OCC the resource files are located under <i>$prefix/src</i> whereas OCE stores them under <i>$prefix/share/oce-${versionnumber}/src</i>.<br>
+This has influence on the setting of the environmental variables.<br>
+</p>
+<p>
+<strong>For OCC</strong>
+</p>
+<pre class="wiki">  export CASROOT=/usr/local/
+  export CSF_GraphicShr=$CASROOT/lib/libTKOpenGl.so
+</pre><p>
+<strong>For OCE</strong>
+</p>
+<pre class="wiki">  export CASROOT=/usr/local/share/oce-0.9.0-dev
+  export CSF_GraphicShr=/usr/local/lib/libTKOpenGl.so
+</pre><p>
+<strong>For both</strong>
+</p>
+<pre class="wiki">  export CSF_MDTVFontDirectory=$CASROOT/src/FontMFT
+  export CSF_LANGUAGE=us
+  export MMGT_CLEAR=1
+  export CSF_EXCEPTION_PROMPT=1
+  export CSF_SHMessage=$CASROOT/src/SHMessage
+  export CSF_MDTVTexturesDirectory=$CASROOT/src/Textures
+  export CSF_XSMessage=$CASROOT/src/XSMessage
+  export CSF_StandardDefaults=$CASROOT/src/StdResource
+  export CSF_PluginDefaults=$CASROOT/src/StdResource
+  export CSF_XCAFDefaults=$CASROOT/src/StdResource
+  export CSF_StandardLiteDefaults=$CASROOT/src/StdResource
+  export CSF_UnitsLexicon=$CASROOT/src/UnitsAPI/Lexi_Expr.dat
+  export CSF_UnitsDefinition=$CASROOT/src/UnitsAPI/Units.dat
+  export CSF_IGESDefaults=$CASROOT/src/XSTEPResource
+  export CSF_STEPDefaults=$CASROOT/src/XSTEPResource
+  export CSF_XmlOcafResource=$CASROOT/src/XmlOcafResource
+  export CSF_MIGRATION_TYPES=$CASROOT/src/StdResource/MigrationSheet.txt
+</pre><h2 id="Example">Example<a title="Link to this section" href="#Example" class="anchor"> ¶</a></h2>
+<p>
+These are the steps taken on a fresh Linux Mint installation. Linux Mint
+ is based on Ubuntu Linux. Therefor the following is supposed to be 
+valid for Ubuntu, too.<br>
+Starting the package manager synaptic.<br><br>
+<a style="padding: 0pt; border: medium none;" href="InstallingOCC_files/synaptic.png"><img src="InstallingOCC_files/synaptic.png"></a>
+<br>
+</p>
+<p>
+Choose the following packages for installation:<br>
+</p>
+<ul><li>g++
+</li><li>ftgl-dev
+</li><li>libxmu-dev
+</li><li>tk8.5-dev (installs tcl8.5 as well)
+</li></ul><p>
+Additional packages for McCad:
+</p>
+<ul><li>libqt4-dev 
+</li><li>git
+</li><li>subversion
+</li><li>cmake
+</li></ul><p>
+Apply changes...<br>
+</p>
+<p>
+Getting the OCE sources
+</p>
+<pre class="wiki">   &gt; cd ~
+   &gt; mkdir oce
+   &gt; git clone git://github.com/tpaviot/oce.git oce
+</pre><p>
+Building the sources
+</p>
+<pre class="wiki">   &gt; cd oce
+   &gt; mkdir build &amp;&amp; cd build
+   &gt; cmake ..
+   &gt; make
+   &gt; sudo make install
+</pre><p>
+Setting up the system for the use of OCE: copy the following lines into /etc/bash.bashrc
+</p>
+<pre class="wiki">   export CASROOT=/usr/local/share/oce-0.9.0-dev
+   export CSF_GraphicShr=/usr/local/lib/libTKOpenGl.so
+
+   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+
+   export CSF_MDTVFontDirectory=$CASROOT/src/FontMFT
+   export CSF_LANGUAGE=us
+   export MMGT_CLEAR=1
+   export CSF_EXCEPTION_PROMPT=1
+   export CSF_SHMessage=$CASROOT/src/SHMessage
+   export CSF_MDTVTexturesDirectory=$CASROOT/src/Textures
+   export CSF_XSMessage=$CASROOT/src/XSMessage
+   export CSF_StandardDefaults=$CASROOT/src/StdResource
+   export CSF_PluginDefaults=$CASROOT/src/StdResource
+   export CSF_XCAFDefaults=$CASROOT/src/StdResource
+   export CSF_StandardLiteDefaults=$CASROOT/src/StdResource
+   export CSF_UnitsLexicon=$CASROOT/src/UnitsAPI/Lexi_Expr.dat
+   export CSF_UnitsDefinition=$CASROOT/src/UnitsAPI/Units.dat
+   export CSF_IGESDefaults=$CASROOT/src/XSTEPResource
+   export CSF_STEPDefaults=$CASROOT/src/XSTEPResource
+   export CSF_XmlOcafResource=$CASROOT/src/XmlOcafResource
+   export CSF_MIGRATION_TYPES=$CASROOT/src/StdResource/MigrationSheet.txt
+</pre><p>
+The first line will change with every new release of OCE. <br>
+The second line points to the OpenGl library of OCE. Standard prefix is 
+/usr/local. If you choose a different install prefix, make sure to edit 
+line accordingly.<br>
+<i>/usr/local/lib</i> is not in the LD_LIBRARY_PATH per default on Linux Mint, hence the third line.
+</p>
+
+        
+        
+      </div>
+          <h3>Attachments</h3>
+          <ul>
+              <li>
+      <a href="https://inrserv09.irs.fzk.de/trac/mccad/attachment/wiki/InstallingOCC/OCCT_building_in_details_Linux.pdf" title="View attachment">OCCT_building_in_details_Linux.pdf</a>
+      (<span title="22957 bytes">22.4 kB</span>) - added by <em>grosse</em>
+      <a class="timeline" href="https://inrserv09.irs.fzk.de/trac/mccad/timeline?from=2012-02-15T16%3A07%3A59Z%2B0100&amp;precision=second" title="2012-02-15T16:07:59Z+0100 in Timeline">6 weeks</a> ago.
+                <q>Official Installation Description of OCCT</q>
+              </li>
+              <li>
+      <a href="https://inrserv09.irs.fzk.de/trac/mccad/attachment/wiki/InstallingOCC/synaptic.png" title="View attachment">synaptic.png</a>
+      (<span title="123165 bytes">120.3 kB</span>) - added by <em>grosse</em>
+      <a class="timeline" href="https://inrserv09.irs.fzk.de/trac/mccad/timeline?from=2012-02-20T11%3A43%3A03Z%2B0100&amp;precision=second" title="2012-02-20T11:43:03Z+0100 in Timeline">6 weeks</a> ago.
+              </li>
+          </ul>
+          <div class="buttons">
+              <form method="get" action="/trac/mccad/wiki/InstallingOCC" id="modifypage">
+                <div>
+                  <input name="action" value="edit" type="hidden">
+                      <input value="Edit this page" type="submit">
+                </div>
+              </form>
+    <form method="get" action="/trac/mccad/attachment/wiki/InstallingOCC/" id="attachfile">
+      <div>
+        <input name="action" value="new" type="hidden">
+        <input name="attachfilebutton" value="Attach file" type="submit">
+      </div>
+    </form>
+              <form method="get" action="/trac/mccad/wiki/InstallingOCC">
+                <div id="delete">
+                  <input name="action" value="delete" type="hidden">
+                  <input name="version" value="8" type="hidden">
+                    <input name="delete_version" value="Delete this version" type="submit">
+                  <input value="Delete page" type="submit">
+                </div>
+              </form>
+          </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/InstallingOCC?format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" xml:lang="en" lang="en"><hr>
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="InstallingOCC_files/trac_logo_mini.png" alt="Trac Powered" width="107" height="30"></a>
+      <p class="left">
+        Powered by <a href="https://inrserv09.irs.fzk.de/trac/mccad/about"><strong>Trac 0.11.1</strong></a><br>
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  
+</body></html>

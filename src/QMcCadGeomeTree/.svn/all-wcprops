@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/mccad/!svn/ver/277/trunk/src/QMcCadGeomeTree
+END
+QMcCadGeomeTree_AddToMGDialog.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/mccad/!svn/ver/8/trunk/src/QMcCadGeomeTree/QMcCadGeomeTree_AddToMGDialog.cxx
+END
+QMcCadGeomeTree_TreeWidget.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/mccad/!svn/ver/277/trunk/src/QMcCadGeomeTree/QMcCadGeomeTree_TreeWidget.cxx
+END
+QMcCadGeomeTree_TreeView.ui
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/mccad/!svn/ver/8/trunk/src/QMcCadGeomeTree/QMcCadGeomeTree_TreeView.ui
+END

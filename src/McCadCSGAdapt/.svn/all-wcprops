@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/mccad/!svn/ver/305/trunk/src/McCadCSGAdapt
+END
+McCadCSGAdapt_ShellAnalyser.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGAdapt/McCadCSGAdapt_ShellAnalyser.cxx
+END
+McCadCSGAdapt_ShapeGeomAnalyser.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mccad/!svn/ver/305/trunk/src/McCadCSGAdapt/McCadCSGAdapt_ShapeGeomAnalyser.cxx
+END
+McCadCSGAdapt_SolidAnalyser.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mccad/!svn/ver/297/trunk/src/McCadCSGAdapt/McCadCSGAdapt_SolidAnalyser.cxx
+END
+McCadCSGAdapt_FaceAnalyser.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGAdapt/McCadCSGAdapt_FaceAnalyser.cxx
+END
+McCadCSGAdapt_ShapeAnalyser.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mccad/!svn/ver/8/trunk/src/McCadCSGAdapt/McCadCSGAdapt_ShapeAnalyser.cxx
+END

@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>
+      McCad
+    </title>
+        <link rel="search" href="https://inrserv09.irs.fzk.de/trac/mccad/search">
+        <link rel="help" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TracGuide">
+        <link rel="alternate" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/WikiStart?version=28&amp;format=txt" type="text/x-trac-wiki" title="Plain Text">
+        <link rel="up" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/WikiStart" title="View Latest Version">
+        <link rel="start" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki">
+        <link rel="stylesheet" href="WikiStart_files/trac.css" type="text/css"><link rel="stylesheet" href="WikiStart_files/wiki.css" type="text/css">
+        <link rel="prev" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/WikiStart?version=27" title="Version 27">
+        <link rel="shortcut icon" href="https://inrserv09.irs.fzk.de/trac/mccad/chrome/common/trac.ico" type="image/x-icon">
+        <link rel="icon" href="https://inrserv09.irs.fzk.de/trac/mccad/chrome/common/trac.ico" type="image/x-icon">
+      <link type="application/opensearchdescription+xml" rel="search" href="https://inrserv09.irs.fzk.de/trac/mccad/search/opensearch" title="Search McCad">
+    <script type="text/javascript" src="WikiStart_files/jquery.js"></script><script type="text/javascript" src="WikiStart_files/trac.js"></script><script type="text/javascript" src="WikiStart_files/search.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/trac/mccad/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW"><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor("Link to this section");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TracIni#header_logo-section"><img src="WikiStart_files/your_project_logo.html" alt="(please configure the [header_logo] section in trac.ini)"></a>
+      </div>
+      <form id="search" action="/trac/mccad/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input id="proj-search" name="q" size="18" type="text">
+          <input value="Search" type="submit">
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first">logged in as ---</li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/logout">Logout</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/prefs">Preferences</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/TracGuide">Help/Guide</a></li><li class="last"><a href="https://inrserv09.irs.fzk.de/trac/mccad/about">About Trac</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki">Wiki</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/timeline">Timeline</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/roadmap">Roadmap</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/browser">Browse Source</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/report">View Tickets</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/newticket">New Ticket</a></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/search">Search</a></li><li class="last"><a href="https://inrserv09.irs.fzk.de/trac/mccad/admin" title="Administration">Admin</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+            <li class="first "><span>← <a class="prev" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/WikiStart?version=27" title="Version 27">Previous Version</a></span></li><li><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/WikiStart" title="View Latest Version">View Latest Version</a></li><li><span class="missing">Next Version →</span></li><li class="last"><a href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/WikiStart?action=diff&amp;version=28">Last Change</a></li>
+          </ul>
+        <hr>
+      </div>
+    <div id="content" class="wiki">
+        <table id="info" summary="Revision info">
+          <tbody>
+            <tr><th scope="row">
+                Version 28 (modified by ---, <a class="timeline" href="https://inrserv09.irs.fzk.de/trac/mccad/timeline?from=2012-03-30T22%3A25%3A13Z%2B0200&amp;precision=second" title="2012-03-30T22:25:13Z+0200 in Timeline">14 minutes</a> ago)
+            </th></tr>
+            <tr><td class="message">
+              <p>
+--
+</p>
+
+            </td></tr>
+          </tbody>
+        </table>
+      <div class="wikipage searchable">
+        
+          <p>
+<a style="padding: 0pt; border: medium none;" href="WikiStart_files/mccad_logo.png"><img src="WikiStart_files/mccad_logo.png" alt="source:/trunk/assets/images/mccad_logo.png" title="source:/trunk/assets/images/mccad_logo.png"></a>
+</p>
+<h1 id="ACADinterfaceprogramforMonteCarloparticletransportcodes">A CAD interface program for Monte Carlo particle transport codes<a title="Link to this section" href="#ACADinterfaceprogramforMonteCarloparticletransportcodes" class="anchor"> ¶</a></h1>
+<hr>
+<h2 id="About">About<a title="Link to this section" href="#About" class="anchor"> ¶</a></h2>
+<p>
+Current Version : 0.3.0
+</p>
+<p>
+McCad was developed to make CAD geometry available to Monte Carlo particle transport codes. <br>
+At the current stage McCad is capable of converting CAD data into MCNP geometry as well as into Tripoli-4 geometry. <br>
+A reconversion from MCNP geometry into CAD data is partially possible. <br>
+</p>
+<p>
+The conversion from CAD to MC consists of two steps.
+</p>
+<ul><li>sign-constant decomposition of the input geometry
+</li><li>generation of void space
+</li></ul><p>
+Which are described in more detail on the page <a class="wiki" href="MC09Paper.pdf">Algorithm</a>.<br>
+A guideline for developers is presented on the page <a class="wiki" href="McCadDevel.html">Developer's Guide</a>.
+</p>
+<h2 id="Installation">Installation<a title="Link to this section" href="#Installation" class="anchor"> ¶</a></h2>
+<h3 id="Prerequisites">Prerequisites<a title="Link to this section" href="#Prerequisites" class="anchor"> ¶</a></h3>
+<p>
+All geometry related operations of McCad rely on the OpenCASCADE (<a class="ext-link" href="http://www.opencascade.org/"><span class="icon">OCC</span></a>) library set. <br>
+In the current version (see above) we're using the Open Cascade Community Edition (<a class="ext-link" href="https://github.com/tpaviot/oce"><span class="icon">OCE</span></a>)
+instead of the official OpenCASCADE open source release package. <br>
+The OCE libraries are 100% compatible with the official release from OCC but provide a better installation procedure as
+well as several bug fixes integrated by the community. <br>
+To install and setup the libraries correctly take a look at the page <a class="wiki" href="InstallingOCC.html">Installation and setup of the OpenCASCADE libraries</a>.
+</p>
+<p>
+Besides OCC/OCE McCad makes use of <a class="ext-link" href="http://qt.nokia.com/products"><span class="icon">Qt4</span></a> for its graphical user interface.
+</p>
+<p>
+Beginning with version 0.2.1 a Debian package will be provided for each tag of McCad.<br>
+McCad uses <a class="ext-link" href="http://www.cmake.org/"><span class="icon">cmake</span></a> to generate its Makefile. In order to compile McCad by yourself you will need cmake.
+</p>
+<h3 id="InstallingMcCad">Installing McCad<a title="Link to this section" href="#InstallingMcCad" class="anchor"> ¶</a></h3>
+<h4 id="BuildingMcCadfromsources">Building McCad from sources<a title="Link to this section" href="#BuildingMcCadfromsources" class="anchor"> ¶</a></h4>
+<p>
+McCad is put under version control using <a class="ext-link" href="http://subversion.tigris.org/"><span class="icon">subversion</span></a> on our local INR server inrserv09. <br>
+To copy the latest sources from the main development branch (trunk) of the repository do
+</p>
+<pre class="wiki">   &gt; svn co https://inrserv09.irs.fzk.de/svn/mccad/trunk .../target
+</pre><p>
+Where <i>target</i> is the directory into which you copy the McCad sources on your local machine.<br>
+</p>
+<p>
+To generate the Makefile defined by the CMakeFileLists.txt in the main directory do
+</p>
+<pre class="wiki">   &gt; cd .../target
+   &gt; mkdir build &amp;&amp; cd build
+   &gt; cmake ..
+</pre><p>
+To compile and install the executable and the dynamic libraries do
+</p>
+<pre class="wiki">   &gt; make
+   &gt; sudo make install
+</pre><p>
+If no errors occur McCad is ready to be <a href="#Use">used</a>
+</p>
+<h4 id="Usingthedebianpackage">Using the debian package<a title="Link to this section" href="#Usingthedebianpackage" class="anchor"> ¶</a></h4>
+<p>
+Notice: The OpenCascade libraries must be installed and configured already. <br>
+</p>
+<pre class="wiki">   &gt; sudo dpkg -i mccad-0.3.0_i386.deb
+</pre><h2 id="Use">Use<a title="Link to this section" href="#Use" class="anchor"> ¶</a></h2>
+<p>
+On the command line the conversion from CAD to MC is split into two steps. The first step is the <a class="wiki" href="MC09Paper.pdf">sign constant decomposition</a> of all CAD solids.<br>
+The second is the completion of the model with void geometry and the 
+printing into the MC input file. The following options are available:
+</p>
+<pre class="wiki">    -d, --decomposition : perform a sign constant decomposition on a single CAD file.
+                          The decomposed geometry will be saved in a STEP file with the same name
+                          as the input file's name but with the prefix 'converted'.
+                          e.g McCad -d InputFile.stp -&gt; convertedInputFile.stp
+    -m, --mcnp : complete model by void and export the geometry description into a MCNP input file. 
+                          This option requires a parameter file. 
+                          The content of the parameter file is discussed below.
+    -t, --tripoli : complete model by void and export the geometry description to an Tripoli input file.
+                          This option requires a parameter file.
+                          The content of the parameter file is discussed below.
+    -e, --explode : explodes all solids from an input file into single STEP files named 'ExOutInputFile_NUM.stp'.
+                          Where NUM is a consecutive number counting the solids in the input file.
+    -f, --fuse : fuses all STEP files in a folder into a single STEP file.
+                          Requires a directory as input parameter.
+    -s, --surface-check : Requires a STEP file as input. 
+                          Prints a list of all surface types in the file. 
+                          Optionally insert a file name which the information will be written into. 
+</pre><p>
+The first three options are relevant for converting CAD data into MC input geometry.<br>
+To perform the sign constant decomposition on all STEP files in the 
+current directory (files beginning with 'converted' will be omitted) you
+ can use the script McCadConvertScript which is located in 
+$MCCADROOT/bin.<br>
+To convert CAD data into MCNP geometry description use the -m option, 
+for a conversion into Tripoli use -t. These options require a parameter 
+file as input. In the following the content of the parameter is 
+presented. All parameters in the file that are defined by a keyword are 
+optional. At least one directory which contains converted*.stp files 
+must be given in the parameter file. <br>
+This is an example for a McCad parameter file: 
+</p>
+<pre class="wiki">   #
+   #      McCadInputFile.txt - EXAMPLE
+   #
+   # '#' introduces a comment line
+   # The format of this file is "keyword" "Value" where value can be a
+   # string, a real, or integer value. Order is irrelevant. 
+   # Each line that isn't a comment or begins with a key word will be 
+   # treated as input directory containing converted*.stp files.
+   #
+   # Do not put comments in keyword lines!!!
+   #
+   InitSurfNb               500              ... Initial Surface Number of output
+   InitCellNb               100              ... Initial Volume Number of output
+   WriteCollisionFile       1                ... Write CollisionFile of input solids (1st run only)
+   WriteDiscreteModel       1                ... Write *.voxel files for input solids
+   MinimumInputSolidVolume  1.00             ... all volumes smaller than this will be neglected
+   MinimumVoidVolume        1.25e2           ... make sure void volumes don't become to small
+   MinimumSizeOfDecompositionFaceArea   50   ... first cut surface area
+   MaximumNumberOfComplementedCells     10   ... how many complement operators may be used per void volume
+   MaximumNumberOfPreDecompositionCells 500  ... sets upper bounds for number of void volumes after first cut
+   MinimumSizeOfRedecompositionFaceArea 5    ... recut if maximum number of complement cells is exceeded
+   MinimumNumberOfSamplePoints 10            ... lower bound for discretization along a face's edge
+   MaximumNumberOfSamplePoints 50            ... upper bound for discretization along a face's edge
+   XResolution  50                           ... desired resolution of discretization in x direction
+   YResolution  50                           ... desired resolution of discretization in y direction
+   Tolerance  1e-7                           ... tolerance for all methods
+   #
+   BoundingBox  /home/user/Testarea/Bounding_Box/BB.stp       ... location and name of bounding box
+   MDFile       /home/user/Testarea/MaterialList/MDList.txt   ... Material and Density information - MCNP only
+   #
+   # directories that contain the converted*.stp files
+   /home/user/Testarea/Model_Part1/
+   /home/user/Testarea/Model_Part2/
+   /home/user/Testarea/Model_Part3/
+</pre><p>
+This provides only a brief overview of the functionality. For a detailed
+ tutorial take a look in the McCad subdirectory 'tutorial'.
+</p>
+
+        
+        
+      </div>
+          <div class="buttons">
+              <form method="get" action="/trac/mccad/wiki/WikiStart" id="modifypage">
+                <div>
+                  <input name="action" value="edit" type="hidden">
+                      <input value="Edit this page" type="submit">
+                </div>
+              </form>
+    <form method="get" action="/trac/mccad/attachment/wiki/WikiStart/" id="attachfile">
+      <div>
+        <input name="action" value="new" type="hidden">
+        <input name="attachfilebutton" value="Attach file" type="submit">
+      </div>
+    </form>
+              <form method="get" action="/trac/mccad/wiki/WikiStart">
+                <div id="delete">
+                  <input name="action" value="delete" type="hidden">
+                  <input name="version" value="28" type="hidden">
+                    <input name="delete_version" value="Delete this version" type="submit">
+                  <input value="Delete page" type="submit">
+                </div>
+              </form>
+          </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="https://inrserv09.irs.fzk.de/trac/mccad/wiki/WikiStart?version=28&amp;format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" xml:lang="en" lang="en"><hr>
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="WikiStart_files/trac_logo_mini.png" alt="Trac Powered" width="107" height="30"></a>
+      <p class="left">
+        Powered by <a href="https://inrserv09.irs.fzk.de/trac/mccad/about"><strong>Trac 0.11.1</strong></a><br>
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.
+      </p>
+      <p class="right">Visit the Trac open source project at<br><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  
+</body></html>

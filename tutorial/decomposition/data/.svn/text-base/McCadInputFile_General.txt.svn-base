@@ -1,0 +1,30 @@
+#
+#      McCadInputFile - EXAMPLE
+#
+# anything behind '#' is a comment
+# the format of the file is "keyword"  "Value" where value can be a
+# string, a real, or integer value. Order is irrelevant.
+#
+InitSurfNb		 500     	  # Initial Surface Number of output
+InitCellNb               100     	  # Initial Volume Number of output
+WriteCollisionFile       1       	  # Write .CollisionFile of input solids (1st run only)
+WriteDiscreteModel       1       	  # Write *.voxel files for input solids
+MinimumInputSolidVolume  1.00    	  # all volumes smaller than this will be neglected
+MinimumVoidVolume        1.25e2  	  # make sure void volumes don't become to small
+MinimumSizeOfDecompositionFaceArea   50   # first cut surface area
+MaximumNumberOfComplementedCells     10   # how many complement operators may be used per void volume
+MaximumNumberOfPreDecompositionCells 500  # sets upper bounds for number of void volumes after first cut
+MinimumSizeOfRedecompositionFaceArea 5    # recut if maximum number of complement cells is exceeded
+MinimumNumberOfSamplePoints 10   	  # lower bound for discretization along a face's edge
+MaximumNumberOfSamplePoints 50   	  # upper bound for discretization along a face's edge
+XResolution  50                  	  # desired resolution of discretization in x direction
+YResolution  50                  	  # desired resolution of discretization in y direction
+Tolerance  1e-7                  	  # tolerance for all methods
+# 
+# BoundingBox  /home/user/Testarea/Bounding_Box/BB.stp       # location and name of bounding box
+# MDFile       /home/user/Testarea/MaterialList/MDList.txt   # Material and Density information - MCNP only
+#
+# directories that contain the converted files
+/home/user/Testarea/Model_Part1/
+/home/user/Testarea/Model_Part2/
+/home/user/Testarea/Model_Part3/

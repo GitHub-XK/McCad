@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/McCadMessenger_MessageType.hxx
+
+../inc/McCadMessenger_ObserverInterface.hxx
+string
+-
+McCadMessenger_MessageType.hxx
+-
+
+../inc/McCadMessenger_Singleton.hxx
+McCadMessenger_ObserverInterface.hxx
+-
+McCadMessenger_MessageType.hxx
+-
+vector
+-
+string
+-
+
+../inc/McCadMessenger_StdOut.hxx
+McCadMessenger_ObserverInterface.hxx
+-
+
+/home/lu/mccad2/src/McCadMessenger/McCadMessenger_Singleton.cxx
+McCadMessenger_Singleton.hxx
+-
+iostream
+-
+
+/home/lu/mccad2/src/McCadMessenger/McCadMessenger_StdOut.cxx
+McCadMessenger_StdOut.hxx
+-
+iostream
+-
+

@@ -1,0 +1,2267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="McCad" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\inc\;CMake Files\src\;CMake Files\test\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/lu/mccad2/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/lu/mccad2/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/lu/mccad2/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/lu/mccad2/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/lu/mccad2/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="package">
+         <Option working_dir="/home/lu/mccad2/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; package" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="package_source">
+         <Option working_dir="/home/lu/mccad2/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; package_source" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/lu/mccad2/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="McCadApp">
+         <Option output="/home/lu/mccad2/bin/McCadApp" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; McCadApp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="McCadApp/fast">
+         <Option output="/home/lu/mccad2/bin/McCadApp" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; McCadApp/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadAEV">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadAEV.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadAEV" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadAEV/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadAEV.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadAEV/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadBoolExp">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadBoolExp.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadBoolExp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadBoolExp/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadBoolExp.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadBoolExp/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadCSG">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadCSG.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadCSG" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadCSG/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadCSG.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadCSG/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadCSGBuild">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadCSGBuild.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadCSGBuild" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadCSGBuild/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadCSGBuild.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadCSGBuild/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadCSGGeom">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadCSGGeom.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadCSGGeom" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadCSGGeom/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadCSGGeom.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadCSGGeom/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadCSGUtil">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadCSGUtil.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadCSGUtil" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadCSGUtil/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadCSGUtil.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadCSGUtil/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadCom">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadCom.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadCom" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadCom/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadCom.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadCom/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadConvertTools">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadConvertTools.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadConvertTools" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadConvertTools/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadConvertTools.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadConvertTools/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadDiscDs">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadDiscDs.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadDiscDs" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadDiscDs/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadDiscDs.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadDiscDs/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadDiscretization">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadDiscretization.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadDiscretization" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadDiscretization/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadDiscretization.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadDiscretization/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadEXPlug">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadEXPlug.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadEXPlug" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadEXPlug/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadEXPlug.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadEXPlug/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadExBRep">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadExBRep.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadExBRep" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadExBRep/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadExBRep.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadExBRep/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadExIges">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadExIges.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadExIges" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadExIges/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadExIges.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadExIges/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadExMcnp">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadExMcnp.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadExMcnp" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadExMcnp/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadExMcnp.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadExMcnp/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadExStep">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadExStep.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadExStep" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadExStep/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadExStep.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadExStep/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadExTripoli">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadExTripoli.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadExTripoli" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadExTripoli/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadExTripoli.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadExTripoli/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadGTOOL">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadGTOOL.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadGTOOL" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadGTOOL/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadGTOOL.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadGTOOL/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadGUI">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadGUI.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadGUI" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadGUI/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadGUI.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadGUI/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadIOHelper">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadIOHelper.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadIOHelper" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadIOHelper/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadIOHelper.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadIOHelper/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadIOTools">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadIOTools.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadIOTools" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadIOTools/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadIOTools.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadIOTools/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadMDReader">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadMDReader.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadMDReader" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadMDReader/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadMDReader.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadMDReader/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadMcRead">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadMcRead.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadMcRead" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadMcRead/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadMcRead.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadMcRead/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadMcVoid">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadMcVoid.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadMcVoid" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadMcVoid/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadMcVoid.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadMcVoid/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadMcWrite">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadMcWrite.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadMcWrite" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadMcWrite/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadMcWrite.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadMcWrite/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadMessenger">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadMessenger.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadMessenger" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadMessenger/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadMessenger.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadMessenger/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadTDS">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadTDS.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadTDS" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadTDS/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadTDS.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadTDS/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadTool">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadTool.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadTool" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadTool/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadTool.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadTool/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadViewTool">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadViewTool.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadViewTool" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadViewTool/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadViewTool.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadViewTool/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadXCAF">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadXCAF.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadXCAF" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKMcCadXCAF/fast">
+         <Option output="/home/lu/mccad2/lib/libTKMcCadXCAF.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKMcCadXCAF/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKQMcCadMessenger">
+         <Option output="/home/lu/mccad2/lib/libTKQMcCadMessenger.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKQMcCadMessenger" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKQMcCadMessenger/fast">
+         <Option output="/home/lu/mccad2/lib/libTKQMcCadMessenger.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKQMcCadMessenger/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKQMcCadTools">
+         <Option output="/home/lu/mccad2/lib/libTKQMcCadTools.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKQMcCadTools" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TKQMcCadTools/fast">
+         <Option output="/home/lu/mccad2/lib/libTKQMcCadTools.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/src" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; TKQMcCadTools/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/src/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest">
+         <Option output="/home/lu/mccad2/lib/libgtest.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/test" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+            <Add directory="/home/lu/mccad2/test/../inc" />
+            <Add directory="/home/lu/mccad2/test/gtest-1.6.0/include" />
+            <Add directory="/home/lu/mccad2/test/gtest-1.6.0" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; gtest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest/fast">
+         <Option output="/home/lu/mccad2/lib/libgtest.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/bin/test" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+            <Add directory="/home/lu/mccad2/test/../inc" />
+            <Add directory="/home/lu/mccad2/test/gtest-1.6.0/include" />
+            <Add directory="/home/lu/mccad2/test/gtest-1.6.0" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; gtest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option output="/home/lu/mccad2/test/test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+            <Add directory="/home/lu/mccad2/test/../inc" />
+            <Add directory="/home/lu/mccad2/test/gtest-1.6.0/include" />
+            <Add directory="/home/lu/mccad2/test/gtest-1.6.0" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test/fast">
+         <Option output="/home/lu/mccad2/test/test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lu/mccad2/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lu/mccad2/inc" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtNetwork" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/local/lib/oce-0.9.0/../../include/oce" />
+            <Add directory="/home/lu/mccad2/test/../inc" />
+            <Add directory="/home/lu/mccad2/test/gtest-1.6.0/include" />
+            <Add directory="/home/lu/mccad2/test/gtest-1.6.0" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lu/mccad2/bin/test/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_CopyTo.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeBox.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeCone.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeCylinder.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeSphere.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MoveTo.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_Rotate.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_Scale.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCadGeomeTree_AddToMGDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCadGeomeTree_TreeWidget.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ActionFactory.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ActionMaster.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_Application.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ClippingPlaneDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_Editor.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_LogWindow.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ReadListDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_TransparencyDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_VGParamDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_View.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_Application.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_Editor.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListIteratorOfListOfEditorPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListIteratorOfListOfEditor_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListIteratorOfListOfViewerPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListIteratorOfListOfViewer_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListNodeOfListOfEditorPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListNodeOfListOfEditor_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListNodeOfListOfViewerPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListNodeOfListOfViewer_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListOfEditorPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListOfEditor_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListOfViewerPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_ListOfViewer_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_SequenceNodeOfSequenceOfEditorPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_SequenceNodeOfSequenceOfEditor_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_SequenceNodeOfSequenceOfViewerPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_SequenceNodeOfSequenceOfViewer_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_SequenceOfEditorPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_SequenceOfEditor_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_SequenceOfViewerPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_SequenceOfViewer_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadAEV/McCadAEV_Viewer.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadBoolExp/McCadBoolExp_ExprParser.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadBoolExp/McCadBoolExp_PostFixer.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGAdapt/McCadCSGAdapt_FaceAnalyser.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGAdapt/McCadCSGAdapt_ShapeAnalyser.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGAdapt/McCadCSGAdapt_ShapeGeomAnalyser.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGAdapt/McCadCSGAdapt_ShellAnalyser.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGAdapt/McCadCSGAdapt_SolidAnalyser.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGBuild/McCadCSGBuild_SolidFromCSG.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_Cell.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_Cone.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_Cylinder.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerSurface_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_DataMapIteratorOfDataMapOfIntegerTransformation_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_DataMapNodeOfDataMapOfIntegerCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_DataMapNodeOfDataMapOfIntegerSurface_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_DataMapNodeOfDataMapOfIntegerTransformation_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_DataMapOfIntegerCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_DataMapOfIntegerSurface_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_DataMapOfIntegerTransformation_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_GQ.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_HSequenceOfCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_HSequenceOfSurface_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_HSequenceOfTransformation_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_Plane.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_SequenceNodeOfSequenceOfCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_SequenceNodeOfSequenceOfSurface_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_SequenceNodeOfSequenceOfTransformation_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_SequenceOfCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_SequenceOfSurface_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_SequenceOfTransformation_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_Sphere.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_Surface.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_SurfaceOfRevolution.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_Torus.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGGeom/McCadCSGGeom_Transformation.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGTool/McCadCSGTool.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGTool/McCadCSGTool_CellBuilder.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGTool/McCadCSGTool_Cutter.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGTool/McCadCSGTool_Decomposer.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGTool/McCadCSGTool_Extender.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGTool/McCadCSGTool_FaceFuser.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGTool/McCadCSGTool_SignCheck.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGTool/McCadCSGTool_SurfaceChecker.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGTool/McCadCSGTool_TrivialCheck.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCSGUtil/McCadCSGUtil_SolidBuilder.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_CasDocument.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_CasView.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_DataMapIteratorOfDataMapofIntegerListOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_DataMapIteratorOfDataMapofIntegerListOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_DataMapIteratorOfDataMapofIntegerListOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_DataMapNodeOfDataMapofIntegerListOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_DataMapNodeOfDataMapofIntegerListOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_DataMapNodeOfDataMapofIntegerListOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_DataMapofIntegerListOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_DataMapofIntegerListOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_DataMapofIntegerListOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_Document.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_ListIteratorOfListOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_ListIteratorOfListOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_ListIteratorOfListOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_ListNodeOfListOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_ListNodeOfListOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_ListNodeOfListOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_ListOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_ListOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_ListOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_MapIteratorOfMapOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_MapIteratorOfMapOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_MapIteratorOfMapOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_MapOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_MapOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_MapOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_SequenceNodeOfSequenceOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_SequenceNodeOfSequenceOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_SequenceNodeOfSequenceOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_SequenceOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_SequenceOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_SequenceOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_StdMapNodeOfMapOfCasView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_StdMapNodeOfMapOfDocument_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_StdMapNodeOfMapOfView_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadCom/McCadCom_View.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadConvertTools/McCadConvertTools_Convertor.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadConvertTools/McCadConvertTools_VoidGenerator.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDesign/McCadDesign_CopyTo.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDesign/McCadDesign_MakeBox.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDesign/McCadDesign_MakeCone.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDesign/McCadDesign_MakeCylinder.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDesign/McCadDesign_MakeSphere.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDesign/McCadDesign_MoveTo.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDesign/McCadDesign_Rotate.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDesign/McCadDesign_Scale.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDesign/McCadDesign_Tool.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_DiscFace.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_DiscSolid.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_HSequenceOfDiscFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_HSequenceOfDiscSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_HSequenceOfHSeqOfDiscSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_ListIteratorOfListOfDiscFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_ListIteratorOfListOfDiscSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_ListNodeOfListOfDiscFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_ListNodeOfListOfDiscSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_ListOfDiscFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_ListOfDiscSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_SequenceNodeOfSequenceOfDiscFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_SequenceNodeOfSequenceOfDiscSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_SequenceNodeOfSequenceOfSeqOfDiscSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_SequenceOfDiscFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_SequenceOfDiscSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscDs/McCadDiscDs_SequenceOfSeqOfDiscSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscretization/McCadDiscretization_Face.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadDiscretization/McCadDiscretization_Solid.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadEXPlug/McCadEXPlug.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadEXPlug/McCadEXPlug_ExchangePlugin.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadEXPlug/McCadEXPlug_MCBase.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadEXPlug/McCadEXPlug_PluginManager.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadEXPlug/McCadEXPlug_SequenceNodeOfSequenceOfSharedLibrary_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadEXPlug/McCadEXPlug_SequenceOfSharedLibrary_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadExDllBrep/McCadExDllBrep_Brep.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadExDllIges/McCadExDllIges_Iges.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadExDllMcnp/McCadExDllMcnp_Mcnp.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadExDllStep/McCadExDllStep_Step.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadExDllTripoli/McCadExDllTripoli_Tripoli.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadGTOOL/McCadGTOOL.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadGUI/McCadGUI_BaseDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadGUI/McCadGUI_ColorDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadGUI/McCadGUI_FileDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadGUI/McCadGUI_GuiFactory.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadGUI/McCadGUI_InputDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadGUI/McCadGUI_ProgressDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOHelper/McCadIOHelper_Expander.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOHelper/McCadIOHelper_InputFileParser.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOHelper/McCadIOHelper_Merger.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools_ExportBrep.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools_ExportIges.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools_ExportMcnp.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools_ExportStep.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools_ExportTripoli.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools_ImportBrep.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools_ImportIges.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools_ImportMcnp.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools_ImportStep.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadIOTools/McCadIOTools_MCExportBase.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMDReader/McCadMDReader_DataMapIteratorOfDataMapOfAsciiStringReal_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMDReader/McCadMDReader_DataMapNodeOfDataMapOfAsciiStringReal_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMDReader/McCadMDReader_DataMapOfAsciiStringReal_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMDReader/McCadMDReader_MapAsciiStringHasher_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMDReader/McCadMDReader_Reader.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_Cell.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_CellBuilder.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_DataMapIteratorOfDataMapOfIntegerCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_DataMapIteratorOfDataMapOfIntegerFill_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_DataMapNodeOfDataMapOfIntegerCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_DataMapNodeOfDataMapOfIntegerFill_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_DataMapOfIntegerCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_DataMapOfIntegerFill_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_Fill.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_FillBuilder.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_HSequenceOfCellPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_HSequenceOfCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_HSequenceOfFill_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_Reader.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_SequenceNodeOfSequenceOfCellPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_SequenceNodeOfSequenceOfCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_SequenceNodeOfSequenceOfFill_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_SequenceOfCellPtr_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_SequenceOfCell_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_SequenceOfFill_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_SurfaceFactory.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcRead/McCadMcRead_TrsfBuilder.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcVoid/McCadMcVoid.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcVoid/McCadMcVoid_ForwardCollision.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcVoid/McCadMcVoid_Generator.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcWrite/McCadMcWrite_McInputGenerator.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcWrite/McCadMcWrite_McnpInputGenerator.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMcWrite/McCadMcWrite_TripoliInputGenerator.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMessenger/McCadMessenger_Singleton.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadMessenger/McCadMessenger_StdOut.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_DataMapIteratorOfDataMapOfIntegerExtFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_DataMapIteratorOfDataMapOfIntegerSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_DataMapNodeOfDataMapOfIntegerExtFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_DataMapNodeOfDataMapOfIntegerSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_DataMapOfIntegerExtFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_DataMapOfIntegerSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_ExtFace.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_ExtSolid.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_HSequenceOfExtFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_HSequenceOfExtSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_SequenceNodeOfSequenceOfExtFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_SequenceNodeOfSequenceOfExtSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_SequenceOfExtFace_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTDS/McCadTDS_SequenceOfExtSolid_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTool/McCadTool_ListIteratorOfListOfTask_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTool/McCadTool_ListNodeOfListOfTask_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTool/McCadTool_ListOfTask_0.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTool/McCadTool_Task.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTool/McCadTool_TaskHistory.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadTool/McCadTool_TaskMaster.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_Axis.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_Axo.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_BackProject.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_BottomProject.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_Delete.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_DisplaySelectedOnly.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_Dump.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_FitAll.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_FrontProject.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_HideSelected.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_LeftProject.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_Pan.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_ReadValueList.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_RedisplaySelected.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_Redraw.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_Reset.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_RightProject.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_Rotate.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_SetAntialiasing.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_SetBackgroundColor.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_SetHiddenLine.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_SetShadingMode.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_SetShapeColor.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_ShowAll.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_TopProject.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_Transparency.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_WireFrame.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_Zoom.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_ZoomIn.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadViewTool/McCadViewTool_ZoomOut.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadXCAF/McCadXCAF_Application.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCadXCAF/McCadXCAF_TDocShapeLabelIterator.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_ActionFactory.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_ActionMaster.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_Application.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_ClippingPlaneDialog.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_Editor.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_LogWindow.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_ReadListDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_TransparencyDialog.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_VGParamDialog.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_View.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/QMcCad_Viewer.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/main.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCad/qrc_qmccad.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCadGeomeTree/QMcCadGeomeTree_AddToMGDialog.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCadGeomeTree/QMcCadGeomeTree_TreeWidget.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/QMcCadMessenger/QMcCadMessenger_MainWindowMessage.cxx">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/McCadCSGAdapt_test/test_McCadCSGAdapt_SolidAnalyser.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/McCadCSGTool_test/test_McCadCSGTool.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/McCadCSGTool_test/test_McCadCSGTool_Cutter.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/McCadCSGTool_test/test_McCadCSGTool_Decomposer.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/McCadCSGTool_test/test_McCadCSGTool_FaceFuser.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/McCadCSGTool_test/test_McCadCSGTool_SignCheck.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/McCadCSGTool_test/test_McCadCSGTool_TrivialCheck.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/McCadConvertTools_test/test_McCadConvertTools_Convertor.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/McCadGTOOL_test/test_McCadGTOOL.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/McCadTDS_test/test_McCadTDS_ExtFace.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/TestShapeFactory.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/gtest-1.6.0/src/gtest-all.cc">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/test_main.cpp">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_CopyTo.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeBox.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeCone.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeCylinder.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MakeSphere.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_MoveTo.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_Rotate.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_McCadDesign_Scale.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCadGeomeTree_AddToMGDialog.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCadGeomeTree_TreeWidget.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ActionFactory.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ActionMaster.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_Application.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ClippingPlaneDialog.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_Editor.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_LogWindow.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_ReadListDialog.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_TransparencyDialog.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_VGParamDialog.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/bin/src/__/inc/moc_QMcCad_View.cxx.rule">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/TestShapeFactory.h">
+      </Unit>
+      <Unit filename="/home/lu/mccad2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/lu/mccad2/inc/McCadConfig.h.in">
+          <Option virtualFolder="CMake Files\inc\" />
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/McCad.template">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/lu/mccad2/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/lu/mccad2/test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\test\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

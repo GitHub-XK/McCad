@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/mccad/!svn/ver/528/trunk/src/McCadDesign
+END
+McCadDesign_CopyTo.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mccad/!svn/ver/8/trunk/src/McCadDesign/McCadDesign_CopyTo.cxx
+END
+McCadDesign_Tool.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/mccad/!svn/ver/8/trunk/src/McCadDesign/McCadDesign_Tool.cxx
+END
+McCadDesign_Rotate.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/528/trunk/src/McCadDesign/McCadDesign_Rotate.cxx
+END
+McCadDesign_MakeCone.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/mccad/!svn/ver/8/trunk/src/McCadDesign/McCadDesign_MakeCone.cxx
+END
+McCadDesign_MakeSphere.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/mccad/!svn/ver/98/trunk/src/McCadDesign/McCadDesign_MakeSphere.cxx
+END
+McCadDesign_MakeBox.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mccad/!svn/ver/8/trunk/src/McCadDesign/McCadDesign_MakeBox.cxx
+END
+McCadDesign_MakeCylinder.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mccad/!svn/ver/8/trunk/src/McCadDesign/McCadDesign_MakeCylinder.cxx
+END
+McCadDesign_Scale.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/mccad/!svn/ver/407/trunk/src/McCadDesign/McCadDesign_Scale.cxx
+END
+McCadDesign_MoveTo.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mccad/!svn/ver/8/trunk/src/McCadDesign/McCadDesign_MoveTo.cxx
+END

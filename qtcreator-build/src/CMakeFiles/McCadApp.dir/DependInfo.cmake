@@ -1,0 +1,83 @@
+# The set of languages for which implicit dependencies are needed:
+SET(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_ActionFactory.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_ActionFactory.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_ActionMaster.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_ActionMaster.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_Application.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_Application.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_ClippingPlaneDialog.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_ClippingPlaneDialog.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_Editor.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_Editor.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_LogWindow.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_LogWindow.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_ReadListDialog.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_ReadListDialog.cxx.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_TransparencyDialog.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_TransparencyDialog.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_VGParamDialog.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_VGParamDialog.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_View.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_View.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/QMcCad_Viewer.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/QMcCad_Viewer.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/main.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/main.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCad/qrc_qmccad.cpp" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCad/qrc_qmccad.cpp.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCadGeomeTree/QMcCadGeomeTree_AddToMGDialog.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCadGeomeTree/QMcCadGeomeTree_AddToMGDialog.cxx.o"
+  "/home/lu/Programming/McCadTrunk/src/QMcCadGeomeTree/QMcCadGeomeTree_TreeWidget.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/QMcCadGeomeTree/QMcCadGeomeTree_TreeWidget.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_McCadDesign_CopyTo.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_CopyTo.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_McCadDesign_MakeBox.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_MakeBox.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_McCadDesign_MakeCone.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_MakeCone.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_McCadDesign_MakeCylinder.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_MakeCylinder.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_McCadDesign_MakeSphere.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_MakeSphere.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_McCadDesign_MoveTo.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_MoveTo.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_McCadDesign_Rotate.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_Rotate.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_McCadDesign_Scale.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_McCadDesign_Scale.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCadGeomeTree_AddToMGDialog.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCadGeomeTree_AddToMGDialog.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCadGeomeTree_TreeWidget.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCadGeomeTree_TreeWidget.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCad_ActionFactory.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_ActionFactory.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCad_ActionMaster.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_ActionMaster.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCad_Application.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_Application.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCad_ClippingPlaneDialog.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_ClippingPlaneDialog.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCad_Editor.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_Editor.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCad_LogWindow.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_LogWindow.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCad_ReadListDialog.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_ReadListDialog.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCad_TransparencyDialog.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_TransparencyDialog.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCad_VGParamDialog.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_VGParamDialog.cxx.o"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/__/inc/moc_QMcCad_View.cxx" "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/McCadApp.dir/__/inc/moc_QMcCad_View.cxx.o"
+  )
+SET(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+SET(CMAKE_TARGET_DEFINITIONS
+  "QT_OPENGL_LIB"
+  "QT_GUI_LIB"
+  "QT_XML_LIB"
+  "QT_NETWORK_LIB"
+  "QT_CORE_LIB"
+  "QT_DEBUG"
+  )
+
+# Targets to which this target links.
+SET(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadAEV.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadBoolExp.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadCom.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadConvertTools.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadCSG.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadCSGBuild.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadCSGGeom.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadCSGUtil.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadDiscDs.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadDiscretization.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadEXPlug.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadGTOOL.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadGUI.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadIOHelper.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadIOTools.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadMcRead.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadMcVoid.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadMcWrite.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadMDReader.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadMessenger.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadTDS.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadTool.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadXCAF.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKMcCadViewTool.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKQMcCadMessenger.dir/DependInfo.cmake"
+  "/home/lu/Programming/McCadTrunk/qtcreator-build/src/CMakeFiles/TKQMcCadTools.dir/DependInfo.cmake"
+  )

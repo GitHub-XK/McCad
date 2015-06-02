@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+450bd921a7c2fc138125c145ae911390 src/__/inc/moc_McCadDesign_CopyTo.cxx
+e93cee804b242026c4a83e99d18514fe src/__/inc/moc_McCadDesign_MakeBox.cxx
+d2fa8de9748bd95c896e4fbf63774783 src/__/inc/moc_McCadDesign_MakeCone.cxx
+b70549af7f0859d8e5b9f1b8431b522a src/__/inc/moc_McCadDesign_MakeCylinder.cxx
+35a42ff3059705399f5103fc98c962fe src/__/inc/moc_McCadDesign_MakeSphere.cxx
+d914e089e1e2c2a4ef73b9258d09d30b src/__/inc/moc_McCadDesign_MoveTo.cxx
+a8a304999ce07cf04ad1cca053fd9e24 src/__/inc/moc_McCadDesign_Rotate.cxx
+c641908d2aa5e9beedbcbfe08e48dda2 src/__/inc/moc_McCadDesign_Scale.cxx
+2f5e7b5c9887db720a17c689946ac5ee src/__/inc/moc_QMcCadGeomeTree_AddToMGDialog.cxx
+ff574525d780cfc3022893b24d86f1d0 src/__/inc/moc_QMcCadGeomeTree_TreeWidget.cxx
+1f736f79a1ade4552373a384c051d5ff src/__/inc/moc_QMcCad_ActionFactory.cxx
+0ba88f0dbe8f29ffe0ea3575b339cd1f src/__/inc/moc_QMcCad_ActionMaster.cxx
+f5001a669fc29b4bb76df5dd1bd2b1eb src/__/inc/moc_QMcCad_Application.cxx
+88d5ff6eeac1185c48dbe9e620e8f118 src/__/inc/moc_QMcCad_ClippingPlaneDialog.cxx
+4d58a93ffcaff5cd7da0830e40ec56c2 src/__/inc/moc_QMcCad_Editor.cxx
+1e358600fc306ab020ef04a712bf6669 src/__/inc/moc_QMcCad_LogWindow.cxx
+94fb1ebae213368c94702d41ff3f4bba src/__/inc/moc_QMcCad_ReadListDialog.cxx
+0cbd81fe8aea7051dd8c57162e23c063 src/__/inc/moc_QMcCad_TransparencyDialog.cxx
+0304617c448757907642700d5257b2f9 src/__/inc/moc_QMcCad_VGParamDialog.cxx
+6fe0d93bda8d6667fb0981d5f3f0aea0 src/__/inc/moc_QMcCad_View.cxx

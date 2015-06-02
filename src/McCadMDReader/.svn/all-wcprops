@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/mccad/!svn/ver/488/trunk/src/McCadMDReader
+END
+McCadMDReader_DataMapIteratorOfDataMapOfAsciiStringReal_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mccad/!svn/ver/8/trunk/src/McCadMDReader/McCadMDReader_DataMapIteratorOfDataMapOfAsciiStringReal_0.cxx
+END
+McCadMDReader_MapAsciiStringHasher_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mccad/!svn/ver/8/trunk/src/McCadMDReader/McCadMDReader_MapAsciiStringHasher_0.cxx
+END
+McCadMDReader_DataMapOfAsciiStringAsciiString_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mccad/!svn/ver/8/trunk/src/McCadMDReader/McCadMDReader_DataMapOfAsciiStringAsciiString_0.cxx
+END
+McCadMDReader_DataMapOfLabelAsciiString_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mccad/!svn/ver/8/trunk/src/McCadMDReader/McCadMDReader_DataMapOfLabelAsciiString_0.cxx
+END
+McCadMDReader_DataMapNodeOfDataMapOfAsciiStringAsciiString_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/mccad/!svn/ver/8/trunk/src/McCadMDReader/McCadMDReader_DataMapNodeOfDataMapOfAsciiStringAsciiString_0.cxx
+END
+McCadMDReader_DataMapNodeOfDataMapOfLabelAsciiString_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mccad/!svn/ver/8/trunk/src/McCadMDReader/McCadMDReader_DataMapNodeOfDataMapOfLabelAsciiString_0.cxx
+END
+McCadMDReader_DataMapOfAsciiStringReal_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/mccad/!svn/ver/8/trunk/src/McCadMDReader/McCadMDReader_DataMapOfAsciiStringReal_0.cxx
+END
+McCadMDReader_DataMapIteratorOfDataMapOfAsciiStringAsciiString_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/mccad/!svn/ver/8/trunk/src/McCadMDReader/McCadMDReader_DataMapIteratorOfDataMapOfAsciiStringAsciiString_0.cxx
+END
+McCadMDReader_DataMapIteratorOfDataMapOfLabelAsciiString_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/mccad/!svn/ver/8/trunk/src/McCadMDReader/McCadMDReader_DataMapIteratorOfDataMapOfLabelAsciiString_0.cxx
+END
+McCadMDReader_DataMapNodeOfDataMapOfAsciiStringReal_0.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/mccad/!svn/ver/8/trunk/src/McCadMDReader/McCadMDReader_DataMapNodeOfDataMapOfAsciiStringReal_0.cxx
+END
+McCadMDReader_Reader.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/mccad/!svn/ver/488/trunk/src/McCadMDReader/McCadMDReader_Reader.cxx
+END
