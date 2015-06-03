@@ -117,9 +117,9 @@ int main(int argc, char *argv[]) {
 
     // handle input
     TCollection_AsciiString inName;
- //if(argc > 1)
+ if(argc > 1)
 
-if (1)
+//if (1)
    {
         TCollection_AsciiString inParameter;
         inParameter = argv[1];
@@ -135,10 +135,10 @@ if (1)
         }
 
         /* test code */
-        inParameter = "-m";
+        //inParameter = "-m";
         TCollection_AsciiString config_file = "McCadConfig.txt";
-        inName = "convertedTest.stp";
-        strMatName = "material.xml";
+        //inName = "convertedTest.stp";
+        //strMatName = "material.xml";
         /* test code */
 
         // Expander
