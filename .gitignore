@@ -1,2 +1,7 @@
+# Ignore the file folder
 Debug/
 lib/
+
+# Ignore the builded file
+CMakeLists.txt.user
+/bin/McCadApp
